@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="how_many_other_vehicles_were_involved" label="How many other vehicles were involved?" language="en" table="x_1526931_claim_fo_other_vehicle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>how_many_other_vehicles_were_involved</element>
+            <help/>
+            <hint/>
+            <label>How many other vehicles were involved?</label>
+            <language>en</language>
+            <name>x_1526931_claim_fo_other_vehicle</name>
+            <plural>How many other vehicles were involved?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-02 10:32:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>How many other vehicles were involved?</sys_name>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_documentation_x_1526931_claim_fo_other_vehicle_how_many_other_vehicles_were_involved_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-02 10:32:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
