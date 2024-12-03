@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="vehicle_of_passenger" table="x_1526931_claim_fo_passenger">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="claim_number" table="x_1526931_claim_fo_pedestrian">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Vehicle of passenger</column_label>
+        <column_label>Claim Number</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>vehicle_of_passenger</element>
+        <element>claim_number</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,12 +35,12 @@
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <name>x_1526931_claim_fo_passenger</name>
+        <name>x_1526931_claim_fo_pedestrian</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1526931_claim_fo_other_vehicle">x_1526931_claim_fo_other_vehicle</reference>
+        <reference display_value="" name="x_1526931_claim_fo_auto_claim">x_1526931_claim_fo_auto_claim</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-03 06:25:25</sys_created_on>
-        <sys_name>Vehicle of passenger</sys_name>
+        <sys_created_on>2024-12-03 09:23:31</sys_created_on>
+        <sys_name>Claim Number</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-        <sys_update_name>sys_dictionary_x_1526931_claim_fo_passenger_vehicle_of_passenger</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1526931_claim_fo_pedestrian_claim_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-03 09:31:34</sys_updated_on>
+        <sys_updated_on>2024-12-03 09:23:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

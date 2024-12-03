@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="vehicle_of_passenger" label="Vehicle of passenger" language="en" table="x_1526931_claim_fo_passenger">
+    <sys_documentation element="claim_number" label="Claim Number" language="en" table="x_1526931_claim_fo_pedestrian">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>vehicle_of_passenger</element>
+            <element>claim_number</element>
             <help/>
             <hint/>
-            <label>Vehicle of passenger</label>
+            <label>Claim Number</label>
             <language>en</language>
-            <name>x_1526931_claim_fo_passenger</name>
-            <plural>Vehicle of passengers</plural>
+            <name>x_1526931_claim_fo_pedestrian</name>
+            <plural>Claim Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-03 06:25:25</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Vehicle of passenger</sys_name>
+            <sys_created_on>2024-12-03 09:23:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Claim Number</sys_name>
             <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
             <sys_policy/>
             <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-            <sys_update_name>sys_documentation_x_1526931_claim_fo_passenger_vehicle_of_passenger_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1526931_claim_fo_pedestrian_claim_number_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-03 09:31:35</sys_updated_on>
+            <sys_updated_on>2024-12-03 09:23:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
