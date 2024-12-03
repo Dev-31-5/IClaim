@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Consumer</name>
+        <order>100</order>
+        <roles>x_1526931_claim_fo.consumer_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 09:52:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d56a7b58c39e96d0bbb2fb377d0131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_app_application_d56a7b58c39e96d0bbb2fb377d0131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 09:52:34</sys_updated_on>
+        <title>Consumer</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>79f54b221b02b51065324089bd4bcb09</instance_id>
+        <instance_name>dev193940</instance_name>
+        <name>sys_app_application_d56a7b58c39e96d0bbb2fb377d0131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Consumer</name><order>100</order><roles>x_1526931_claim_fo.consumer_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 09:52:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d56a7b58c39e96d0bbb2fb377d0131f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Consumer</sys_name><sys_overrides/><sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package><sys_policy/><sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope><sys_update_name>sys_app_application_d56a7b58c39e96d0bbb2fb377d0131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 09:52:34</sys_updated_on><title>Consumer</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1212436688</payload_hash>
+        <record_name>Consumer</record_name>
+        <reverted_from/>
+        <source>66433f58c39a96d0bbb2fb377d0131e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 12:11:26</sys_created_on>
+        <sys_id>972a50ecc39ad6d0bbb2fb377d013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19387485d840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 12:11:26</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>116a7b584f9e96d00b37f1b6e1a93cf8</update_guid>
+        <update_guid_history>116a7b584f9e96d00b37f1b6e1a93cf8:-1212436688,030a186ce99ad6d036e50745fcc301f1:1466963172,116a7b584f9e96d00b37f1b6e1a93cf8:-1212436688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Consumer">c92df8b8c3969ed0bbb2fb377d01315e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 09:22:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>9a687f976a854e48b0ee5acfce4c8324</sys_id>
+        <sys_metadata>d56a7b58c39e96d0bbb2fb377d0131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_app_application_d56a7b58c39e96d0bbb2fb377d0131f4</sys_update_name>
+        <sys_update_version display_value="sys_app_application_d56a7b58c39e96d0bbb2fb377d0131f4">972a50ecc39ad6d0bbb2fb377d013176</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 09:22:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

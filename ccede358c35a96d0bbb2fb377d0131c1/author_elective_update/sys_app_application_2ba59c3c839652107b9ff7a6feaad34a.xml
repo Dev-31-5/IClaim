@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Insured Vehicle</name>
+        <order>100</order>
+        <roles>x_1526931_claim_fo.insured_vehicle_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:30:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ba59c3c839652107b9ff7a6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insured Vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_app_application_2ba59c3c839652107b9ff7a6feaad34a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:30:16</sys_updated_on>
+        <title>Insured Vehicle</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>79f54b221b02b51065324089bd4bcb09</instance_id>
+        <instance_name>dev193940</instance_name>
+        <name>sys_app_application_2ba59c3c839652107b9ff7a6feaad34a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Insured Vehicle</name>
+        <order>100</order>
+        <roles>x_1526931_claim_fo.insured_vehicle_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:30:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ba59c3c839652107b9ff7a6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insured Vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_app_application_2ba59c3c839652107b9ff7a6feaad34a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:30:16</sys_updated_on>
+        <title>Insured Vehicle</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-1847813101</payload_hash>
+        <record_name>Insured Vehicle</record_name>
+        <reverted_from/>
+        <source>36271cbcc31a5ed0bbb2fb377d0131ce</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:36:51</sys_created_on>
+        <sys_id>f72710fcc31a5ed0bbb2fb377d01317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938b3c65860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:36:51</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b72710fc3f1a5ed0dd1d2ad3abab537e</update_guid>
+        <update_guid_history>b72710fc3f1a5ed0dd1d2ad3abab537e:-1847813101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Insured Vehicle">653db4b8c3969ed0bbb2fb377d013182</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 09:22:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>2984e145a35b481899fb96252da2e471</sys_id>
+        <sys_metadata>2ba59c3c839652107b9ff7a6feaad34a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insured Vehicle</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_app_application_2ba59c3c839652107b9ff7a6feaad34a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_2ba59c3c839652107b9ff7a6feaad34a">f72710fcc31a5ed0bbb2fb377d01317e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 09:22:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
