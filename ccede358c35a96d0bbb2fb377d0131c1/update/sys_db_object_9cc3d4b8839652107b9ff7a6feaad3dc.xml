@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Insured Vehicle</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1526931_claim_fo_insured_vehicle</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:30:16</sys_created_on>
+        <sys_id>9cc3d4b8839652107b9ff7a6feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insured Vehicle</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_db_object_9cc3d4b8839652107b9ff7a6feaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:30:16</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1526931_claim_fo.insured_vehicle_user" name="x_1526931_claim_fo.insured_vehicle_user">5ba59c3c839652107b9ff7a6feaad318</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
