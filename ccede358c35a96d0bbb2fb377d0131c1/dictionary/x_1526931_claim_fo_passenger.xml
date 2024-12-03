@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0fc3983cc3165ed0bbb2fb377d013173" extends="sys_user" label="Passenger" max_length="40" name="x_1526931_claim_fo_passenger" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Vehicle of Passenger" max_length="32" name="vehicle_of_passenger" reference="x_1526931_claim_fo_other_vehicle" type="reference"/>
+        <index name="index">
+            <element name="vehicle_of_passenger"/>
+        </index>
+    </element>
+</database>
