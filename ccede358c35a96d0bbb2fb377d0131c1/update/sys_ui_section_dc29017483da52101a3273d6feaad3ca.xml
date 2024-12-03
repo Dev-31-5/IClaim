@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Add Vehicles" section_id="dc29017483da52101a3273d6feaad3ca" sys_domain="global" table="x_1526931_claim_fo_other_vehicle" version="3" view="getothervehicles">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>where_there_any_other_vehicles_involved</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>57f981b483da52101a3273d6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>make</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>dbf981b483da52101a3273d6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>53f981b483da52101a3273d6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_year</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>d7f981b483da52101a3273d6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>5ff981b483da52101a3273d6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_plate_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>d3f981b483da52101a3273d6feaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vin</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>5bf981b483da52101a3273d6feaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_the_vehicle_damaged</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>dff981b483da52101a3273d6feaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_damage_details</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>57f981b483da52101a3273d6feaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_passengers</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>dbf981b483da52101a3273d6feaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_passenger_in_other_vehicle</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>53f981b483da52101a3273d6feaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>d7f981b483da52101a3273d6feaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_1_first_name</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>17f981b483da52101a3273d6feaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_2_first_name</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>9bf981b483da52101a3273d6feaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_3_first_name</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>13f981b483da52101a3273d6feaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_4_first_name</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>97f981b483da52101a3273d6feaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_5_first_name</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>1ff981b483da52101a3273d6feaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:48</sys_created_on>
+            <sys_id>93f981b483da52101a3273d6feaad3ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_1_last_name</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:49</sys_created_on>
+            <sys_id>1bf981b483da52101a3273d6feaad3ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_2_last_name</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:49</sys_created_on>
+            <sys_id>9ff981b483da52101a3273d6feaad3ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_3_last_name</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:49</sys_created_on>
+            <sys_id>17f981b483da52101a3273d6feaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_4_last_name</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:49</sys_created_on>
+            <sys_id>9bf981b483da52101a3273d6feaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_passenger_5_last_name</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:18:49</sys_created_on>
+            <sys_id>13f981b483da52101a3273d6feaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Vehicles" display_value="Add Vehicles" name="x_1526931_claim_fo_other_vehicle" sys_domain="global" view="5829017483da52101a3273d6feaad331">dc29017483da52101a3273d6feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Add Vehicles</caption>
+            <header>false</header>
+            <name>x_1526931_claim_fo_other_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-03 10:15:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc29017483da52101a3273d6feaad3ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1526931_claim_fo_other_vehicle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_ui_section_dc29017483da52101a3273d6feaad3ca</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-03 10:18:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="getothervehicles" name="getothervehicles">5829017483da52101a3273d6feaad331</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
