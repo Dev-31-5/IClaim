@@ -15,6 +15,7 @@
         <element default="united states" label="In what country did the loss occur?" max_length="40" name="in_what_country_did_the_loss_occur" type="string"/>
         <element label="Vehicle Passenger 3 First Name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
         <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Vehicle Passenger 1 Last Name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
         <element label="Vehicle Passenger 4 First Name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
         <element label="Vehicle Passenger 3 Last Name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
