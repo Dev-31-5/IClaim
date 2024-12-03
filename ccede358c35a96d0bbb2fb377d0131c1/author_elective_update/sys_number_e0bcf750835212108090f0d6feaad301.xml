@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1526931_claim_fo_claim_witness">x_1526931_claim_fo_claim_witness</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CLA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 10:02:39</sys_created_on>
+        <sys_id>e0bcf750835212108090f0d6feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLA</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_number_e0bcf750835212108090f0d6feaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 10:02:39</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>55aa49cbebf70258e483f459bad0cdad</instance_id>
+        <instance_name>dev286629</instance_name>
+        <name>sys_number_e0bcf750835212108090f0d6feaad301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1526931_claim_fo_claim_witness">x_1526931_claim_fo_claim_witness</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CLA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 10:02:39</sys_created_on><sys_id>e0bcf750835212108090f0d6feaad301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CLA</sys_name><sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package><sys_policy/><sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope><sys_update_name>sys_number_e0bcf750835212108090f0d6feaad301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 10:02:39</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>468722606</payload_hash>
+        <record_name>CLA</record_name>
+        <reverted_from/>
+        <source>6474b35c831212108090f0d6feaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:19:30</sys_created_on>
+        <sys_id>31331c74831212108090f0d6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938b2c84e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:19:30</sys_updated_on>
+        <type>Number</type>
+        <update_guid>fcbcf71ceb5212108aa0188e5df4f3fc</update_guid>
+        <update_guid_history>fcbcf71ceb5212108aa0188e5df4f3fc:468722606,270310742912121006dd32d93a8c3bca:-1488710878,fcbcf71ceb5212108aa0188e5df4f3fc:468722606</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:20:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>029190dd4ebf4900805305e86fb22400</sys_id>
+        <sys_metadata>e0bcf750835212108090f0d6feaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLA</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent display_value="">d899ffd4835212108090f0d6feaad3ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_number_e0bcf750835212108090f0d6feaad301</sys_update_name>
+        <sys_update_version display_value="sys_number_e0bcf750835212108090f0d6feaad301">31331c74831212108090f0d6feaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:20:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

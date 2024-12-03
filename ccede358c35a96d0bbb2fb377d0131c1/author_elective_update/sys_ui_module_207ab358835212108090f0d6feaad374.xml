@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Claim witness">187ab358835212108090f0d6feaad370</application>
+        <filter/>
+        <name>Claim witness</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1526931_claim_fo.claim_witness_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 09:52:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>207ab358835212108090f0d6feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim witness</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ui_module_207ab358835212108090f0d6feaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 09:52:48</sys_updated_on>
+        <table>x_1526931_claim_fo_claim_witness</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>55aa49cbebf70258e483f459bad0cdad</instance_id>
+        <instance_name>dev286629</instance_name>
+        <name>sys_ui_module_207ab358835212108090f0d6feaad374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Claim witness">187ab358835212108090f0d6feaad370</application><filter/><name>Claim witness</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1526931_claim_fo.claim_witness_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 09:52:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>207ab358835212108090f0d6feaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Claim witness</sys_name><sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package><sys_policy/><sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope><sys_update_name>sys_ui_module_207ab358835212108090f0d6feaad374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 09:52:48</sys_updated_on><table>x_1526931_claim_fo_claim_witness</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>525954282</payload_hash>
+        <record_name>Claim witness</record_name>
+        <reverted_from/>
+        <source>6474b35c831212108090f0d6feaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:19:31</sys_created_on>
+        <sys_id>c6331c74831212108090f0d6feaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938b2c869a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:19:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>687ab3580f521210fea555bd3b8ca876</update_guid>
+        <update_guid_history>687ab3580f521210fea555bd3b8ca876:525954282,6203dc34ed1212109ae37988ea48249e:620128883,2603dc34cb12121092424cfe2b1f948e:0,687ab3580f521210fea555bd3b8ca876:525954282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 06:20:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>3bb74a814caa4818ac0d615aa7674c40</sys_id>
+        <sys_metadata>207ab358835212108090f0d6feaad374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim witness</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_207ab358835212108090f0d6feaad374</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_207ab358835212108090f0d6feaad374">c6331c74831212108090f0d6feaad3dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 06:20:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
