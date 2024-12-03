@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c86f0834839652107b9ff7a6feaad3b1" label="Damaged property" max_length="40" name="x_1526931_claim_fo_damaged_property" type="collection">
+        <element label="Property address line 1" max_length="40" name="property_address_line_1" type="string"/>
+        <element label="Property Display Name" max_length="40" name="property_display_name" type="string"/>
+        <element label="Property Owner First Name" max_length="40" name="property_owner_first_name" type="string"/>
+        <element label="Property Owner Last Name" max_length="40" name="property_owner_last_name" type="string"/>
+        <element choice="1" label="Property Type" max_length="40" name="property_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Traffic light" sequence="5" value="traffic light"/>
+                <element inactive_on_update="false" label="Structure" sequence="0" value="Structure"/>
+                <element inactive_on_update="false" label="Traffic pole" sequence="4" value="traffic pole"/>
+                <element inactive_on_update="false" label="House" sequence="6" value="house"/>
+                <element inactive_on_update="false" label="Shop" sequence="2" value="shop"/>
+                <element inactive_on_update="false" label="Divider" sequence="1" value="divider"/>
+                <element inactive_on_update="false" label="Road" sequence="3" value="road"/>
+            </choice>
+        </element>
+        <element label="Property Name" max_length="40" name="property_name" type="string"/>
+        <element label="Property Owner Contact" max_length="40" name="property_owner_contact" type="string"/>
+        <element label="Property address line 2" max_length="40" name="property_address_line_2" type="string"/>
+    </element>
+</database>
