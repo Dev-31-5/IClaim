@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="047b5c7483d652107b9ff7a6feaad355" label="Pedestrian" max_length="40" name="x_1526931_claim_fo_pedestrian" type="collection">
-        <element label="Pedestrian Phone" max_length="40" name="pedestrian_phone" type="string"/>
-        <element label="Enter injury description" max_length="40" name="enter_injury_description" type="string"/>
-        <element label="Pedestrian Full Name" max_length="40" name="pedestrian_full_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Was the pedestrian injured?" max_length="40" name="was_the_pedestrian_injured" type="boolean"/>
         <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <element label="Claim Number" max_length="32" name="claim_number" reference="x_1526931_claim_fo_auto_claim" type="reference"/>
+        <element label="Enter injury description" max_length="40" name="enter_injury_description" type="string"/>
         <element label="Pedestrian last name" max_length="40" name="pedestrian_last_name" type="string"/>
-        <element label="Pedestrian contact number" max_length="40" name="pedestrian_contact_number" type="string"/>
+        <element label="Pedestrian Full Name" max_length="40" name="pedestrian_full_name" type="string"/>
         <element label="Pedestrian Address" max_length="40" name="pedestrian_address" type="string"/>
+        <element label="Pedestrian contact number" max_length="40" name="pedestrian_contact_number" type="string"/>
+        <element label="Claim" max_length="32" name="claim" reference="x_1526931_claim_fo_auto_claim" type="reference"/>
+        <element label="Pedestrian Phone" max_length="40" name="pedestrian_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Was the pedestrian injured?" max_length="40" name="was_the_pedestrian_injured" type="boolean"/>
         <element label="Pedestrian first name" max_length="40" name="pedestrian_first_name" type="string"/>
+        <index name="index">
+            <element name="claim"/>
+        </index>
+        <index name="index2">
+            <element name="claim_number"/>
+        </index>
     </element>
 </database>
