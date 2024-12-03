@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 07:00:23</sys_created_on>
+        <sys_id>b09cd4f483d652107b9ff7a6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1526931_claim_fo_pedestrian.x_1526931_claim_fo.pedestrian_user</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_security_acl display_value="x_1526931_claim_fo_pedestrian">b89cd4f483d652107b9ff7a6feaad36f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b09cd4f483d652107b9ff7a6feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 07:00:23</sys_updated_on>
+        <sys_user_role display_value="x_1526931_claim_fo.pedestrian_user" name="x_1526931_claim_fo.pedestrian_user">9c9c94f483d652107b9ff7a6feaad3f9</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
