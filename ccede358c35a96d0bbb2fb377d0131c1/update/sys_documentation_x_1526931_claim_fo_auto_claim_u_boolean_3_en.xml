@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_boolean_3" label="Front driver side quarter panel" language="en" table="x_1526931_claim_fo_auto_claim">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_3</element>
+            <help/>
+            <hint/>
+            <label>Front driver side quarter panel</label>
+            <language>en</language>
+            <name>x_1526931_claim_fo_auto_claim</name>
+            <plural>Front driver side quarter panels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:42:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Front driver side quarter panel</sys_name>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_documentation_x_1526931_claim_fo_auto_claim_u_boolean_3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:42:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
