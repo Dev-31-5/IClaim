@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="consumer" table="x_1526931_claim_fo_auto_claim">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="whatweretheroadconditions" table="x_1526931_claim_fo_auto_claim">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Consumer</column_label>
+        <column_label>What were the road conditions?</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:gs.getUserID()</default_value>
+        <default_value>dry</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>consumer</element>
+        <element>whatweretheroadconditions</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>x_1526931_claim_fo_auto_claim</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1526931_claim_fo_consumer">x_1526931_claim_fo_consumer</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-03 11:00:08</sys_created_on>
-        <sys_name>Consumer</sys_name>
+        <sys_created_on>2024-12-04 09:22:29</sys_created_on>
+        <sys_name>What were the road conditions?</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-        <sys_update_name>sys_dictionary_x_1526931_claim_fo_auto_claim_consumer</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1526931_claim_fo_auto_claim_whatweretheroadconditions</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-04 08:40:29</sys_updated_on>
+        <sys_updated_on>2024-12-04 09:22:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

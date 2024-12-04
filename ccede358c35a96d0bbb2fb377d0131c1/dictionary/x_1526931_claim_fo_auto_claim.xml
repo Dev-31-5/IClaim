@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a0e618f8831212108090f0d6feaad37a" label="Auto Claim" max_length="40" name="x_1526931_claim_fo_auto_claim" type="collection">
         <element label="Vehicle Passenger 3 Last Name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Where there any death?" max_length="40" name="wherethereanydeath" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="How many pedestrians?" max_length="40" name="how_many_pedestrians" type="integer"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Passenger" max_length="32" name="passenger" reference="x_1526931_claim_fo_passenger" type="reference"/>
         <element label="Vehicle Passenger 1 Last Name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
@@ -23,8 +30,10 @@
         <element label="Vehicle Passenger 4 Last Name" max_length="40" name="vehicle_passenger_4_last_name" type="string"/>
         <element attributes="encode_utf8=false" label="Policy Holder" max_length="32" name="policyholder" reference="x_1526931_claim_fo_consumer" type="reference"/>
         <element label="How did the accident occur?" max_length="255" name="how_did_the_accident_occur" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Address Line 1" max_length="40" name="addressline1" type="string"/>
         <element label="Vehicle Passenger 2 First Name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
         <element label="Vehicle Passenger 1 First Name" max_length="40" name="vehicle_passenger_1_first_name" type="string"/>
+        <element label="How many of these vehicles are insured under your policy?" max_length="40" name="howmanyofthesevehiclesareinsuredunderyourpolicy" type="integer"/>
         <element label="New Choice" max_length="40" name="new_choice" type="string"/>
         <element choice="3" default="insured" label="Requester Role" max_length="40" name="requester_role" type="string">
             <choice>
@@ -41,7 +50,50 @@
         <element label="Vehicle Passenger 3 First Name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
         <element label="Vehicle Passenger 2 Last Name" max_length="40" name="vehicle_passenger_2_last_name" type="string"/>
         <element label="Vehicles" max_length="1024" name="vehicles" reference="x_1526931_claim_fo_other_vehicle" type="glide_list"/>
-        <element attributes="encode_utf8=false" label="Consumer" max_length="32" name="consumer" reference="x_1526931_claim_fo_consumer" type="reference"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" label="Consumer" max_length="32" name="consumer" reference="x_1526931_claim_fo_consumer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Where there any death?" max_length="40" name="choice_check" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date and time of notice" max_length="40" name="date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Were there pedestrians involved?" max_length="40" name="weretherepedestriansinvolved" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="clear" label="What were the weather conditions?" max_length="40" name="whatweretheweatherconditions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Clear" sequence="0" value="clear"/>
+                <element inactive_on_update="false" label="Stormy" sequence="1" value="stormy"/>
+                <element inactive_on_update="false" label="Rainy" sequence="2" value="rainy"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City of loss location" max_length="40" name="city_of_loss_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip code of loss location" max_length="40" name="zip_code_of_loss_location" type="string"/>
+        <element label="How many vehicles were indulged?" max_length="40" name="howmanyvehicleswereindulged" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the date and time of loss" max_length="40" name="time_of_loss" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Address Line 2" max_length="40" name="addressline2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="dry" label="What were the road conditions?" max_length="40" name="whatweretheroadconditions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dry" sequence="0" value="dry"/>
+                <element inactive_on_update="false" label="Wet" sequence="1" value="wet"/>
+                <element inactive_on_update="false" label="Danaged" sequence="2" value="danaged"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="collision" label="Cause of loss" max_length="40" name="causeofloss" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Only personal injury" sequence="4" value="only personal injury"/>
+                <element inactive_on_update="false" label="Theft" sequence="1" value="theft"/>
+                <element inactive_on_update="false" label="Collision" sequence="0" value="collision"/>
+                <element inactive_on_update="false" label="Damage due to act of God" sequence="2" value="damage due to act of god"/>
+                <element inactive_on_update="false" label="Glass Breakage" sequence="3" value="glass breakage"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="consumer"/>
         </index>
