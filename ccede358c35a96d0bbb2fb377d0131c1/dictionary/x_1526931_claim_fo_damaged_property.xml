@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c86f0834839652107b9ff7a6feaad3b1" label="Damaged property" max_length="40" name="x_1526931_claim_fo_damaged_property" type="collection">
-        <element label="Property address line 1" max_length="40" name="property_address_line_1" type="string"/>
+        <element label="Address line 1" max_length="40" name="property_address_line_1" type="string"/>
         <element label="Property Display Name" max_length="40" name="property_display_name" type="string"/>
-        <element label="Property Owner First Name" max_length="40" name="property_owner_first_name" type="string"/>
-        <element label="Property Owner Last Name" max_length="40" name="property_owner_last_name" type="string"/>
-        <element choice="1" label="Property Type" max_length="40" name="property_type" type="choice">
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="First name" max_length="40" name="property_owner_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Name" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property address line 2" max_length="40" name="u_string_7" type="string"/>
+        <element label="Last name" max_length="40" name="property_owner_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Owner Last Name" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Owner Contact" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property address line 1" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="structure" label="Property Type" max_length="40" name="u_choice_1" type="string">
             <choice>
-                <element inactive_on_update="false" label="Traffic light" sequence="5" value="traffic light"/>
-                <element inactive_on_update="false" label="Structure" sequence="0" value="Structure"/>
-                <element inactive_on_update="false" label="Traffic pole" sequence="4" value="traffic pole"/>
-                <element inactive_on_update="false" label="House" sequence="6" value="house"/>
-                <element inactive_on_update="false" label="Shop" sequence="2" value="shop"/>
-                <element inactive_on_update="false" label="Divider" sequence="1" value="divider"/>
                 <element inactive_on_update="false" label="Road" sequence="3" value="road"/>
+                <element inactive_on_update="false" label="Structure" sequence="0" value="structure"/>
+                <element inactive_on_update="false" label="Traffic pole" sequence="4" value="traffic pole"/>
+                <element inactive_on_update="false" label="Traffic light" sequence="5" value="traffic light"/>
+                <element inactive_on_update="false" label="Divider" sequence="1" value="divider"/>
+                <element inactive_on_update="false" label="Shop" sequence="2" value="shop"/>
+                <element inactive_on_update="false" label="House" sequence="6" value="house"/>
+            </choice>
+        </element>
+        <element choice="3" default="Structure" dependent="u_reference_1" dependent_on_field="u_reference_1" label="Property Type" max_length="40" name="property_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Traffic pole" sequence="4" value="traffic pole"/>
+                <element inactive_on_update="false" label="Structure" sequence="0" value="Structure"/>
+                <element inactive_on_update="false" label="Shop" sequence="2" value="shop"/>
+                <element inactive_on_update="false" label="House" sequence="6" value="house"/>
+                <element inactive_on_update="false" label="Road" sequence="3" value="road"/>
+                <element inactive_on_update="false" label="Divider" sequence="1" value="divider"/>
+                <element inactive_on_update="false" label="Traffic light" sequence="5" value="traffic light"/>
             </choice>
         </element>
         <element label="Property Name" max_length="40" name="property_name" type="string"/>
-        <element label="Property Owner Contact" max_length="40" name="property_owner_contact" type="string"/>
-        <element label="Property address line 2" max_length="40" name="property_address_line_2" type="string"/>
+        <element label="Mobile phone" max_length="40" name="property_owner_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Owner First Name" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Witnesses" max_length="1024" name="u_glide_list_1" reference="sys_user" type="glide_list"/>
+        <element label="Address line 2" max_length="40" name="property_address_line_2" type="string"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>
