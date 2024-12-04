@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="pedestrian_contact_number" label="Pedestrian contact number" language="en" table="x_1526931_claim_fo_pedestrian">
+    <sys_documentation element="pedestrian_contact_number" label="Pedestrian Contact Number" language="en" table="x_1526931_claim_fo_pedestrian">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>pedestrian_contact_number</element>
             <help/>
             <hint/>
-            <label>Pedestrian contact number</label>
+            <label>Pedestrian Contact Number</label>
             <language>en</language>
             <name>x_1526931_claim_fo_pedestrian</name>
-            <plural>Pedestrian contact numbers</plural>
+            <plural>Pedestrian Contact Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-12-03 07:00:24</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Pedestrian contact number</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Pedestrian Contact Number</sys_name>
             <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
             <sys_policy/>
             <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
             <sys_update_name>sys_documentation_x_1526931_claim_fo_pedestrian_pedestrian_contact_number_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-03 07:00:24</sys_updated_on>
+            <sys_updated_on>2024-12-04 06:57:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

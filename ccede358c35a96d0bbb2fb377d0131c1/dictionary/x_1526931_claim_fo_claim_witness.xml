@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="107314b4831212108090f0d6feaad381" extends="sys_user" label="Claim witness" max_length="40" name="x_1526931_claim_fo_claim_witness" type="collection">
-        <element label="Witnesses contact number" max_length="40" name="witnesses_contact_number" type="string"/>
+        <element label="Witnesses Contact Number" max_length="40" name="witnesses_contact_number" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Witnesses last name" max_length="40" name="witnesses_last_name" type="string"/>
+        <element label="Witnesses Last Name" max_length="40" name="witnesses_last_name" type="string"/>
         <element label="Claim" max_length="32" name="claim" reference="x_1526931_claim_fo_auto_claim" type="reference"/>
-        <element label="Witnesses address line 1" max_length="40" name="witnesses_address_line_1" type="string"/>
-        <element label="Witnesses address line 2" max_length="40" name="witnesses_address_line_2" type="string"/>
-        <element label="Witnesses first name" max_length="40" name="witnesses_first_name" type="string"/>
+        <element label="Witnesses Address Line 1" max_length="40" name="witnesses_address_line_1" type="string"/>
+        <element label="Witnesses Address Line 2" max_length="40" name="witnesses_address_line_2" type="string"/>
+        <element label="Witnesses First Name" max_length="40" name="witnesses_first_name" type="string"/>
         <element label="Display name" max_length="40" name="display_name" type="string"/>
         <index name="index">
             <element name="claim"/>
