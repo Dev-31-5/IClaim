@@ -1,26 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a0e618f8831212108090f0d6feaad37a" label="Auto Claim" max_length="40" name="x_1526931_claim_fo_auto_claim" type="collection">
-        <element label="Vehicle Passenger 2 Last Name" max_length="40" name="vehicle_passenger_2_last_name" type="string"/>
+        <element label="Vehicle Passenger 3 Last Name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How many pedestrians?" max_length="40" name="how_many_pedestrians" type="integer"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Passenger" max_length="32" name="passenger" reference="x_1526931_claim_fo_passenger" type="reference"/>
-        <element label="New Choice" max_length="40" name="new_choice" type="string"/>
-        <element label="Vehicle Passenger 2 First Name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
+        <element label="Vehicle Passenger 1 Last Name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Injury details" max_length="40" name="injury_details" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element default="united states" label="In what country did the loss occur?" max_length="40" name="in_what_country_did_the_loss_occur" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="insured" label="Requester Role" max_length="40" name="requesterrole" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Insured" sequence="0" value="insured"/>
+                <element inactive_on_update="false" label="Agent" sequence="1" value="agent"/>
+                <element inactive_on_update="false" label="Company Representative" sequence="2" value="company representative"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Vehicle Passenger 4 First Name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
         <element label="Agency Name" max_length="40" name="agency_name" type="string"/>
         <element label="Vehicle Passenger 4 Last Name" max_length="40" name="vehicle_passenger_4_last_name" type="string"/>
         <element label="How did the accident occur?" max_length="255" name="how_did_the_accident_occur" type="string_full_utf8"/>
-        <element label="Vehicles" max_length="1024" name="vehicles" reference="x_1526931_claim_fo_other_vehicle" type="glide_list"/>
-        <element default="insured" label="Requester Role" max_length="40" name="requester_role" type="string"/>
-        <element label="Make" max_length="40" name="make" type="string"/>
-        <element label="Injury details" max_length="40" name="injury_details" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="How many pedestrians?" max_length="40" name="how_many_pedestrians" type="integer"/>
-        <element default="united states" label="In what country did the loss occur?" max_length="40" name="in_what_country_did_the_loss_occur" type="string"/>
-        <element label="Vehicle Passenger 3 First Name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
-        <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Vehicle Passenger 1 Last Name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
-        <element label="Vehicle Passenger 4 First Name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
-        <element label="Vehicle Passenger 3 Last Name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
+        <element label="Vehicle Passenger 2 First Name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
         <element label="Vehicle Passenger 1 First Name" max_length="40" name="vehicle_passenger_1_first_name" type="string"/>
+        <element label="New Choice" max_length="40" name="new_choice" type="string"/>
+        <element choice="3" default="insured" label="Requester Role" max_length="40" name="requester_role" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Company Representative" sequence="1" value="company_rep"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Insured" sequence="2" value="insured"/>
+                <element inactive_on_update="false" label="Agent" sequence="0" value="agent"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
+        <element label="Vehicle Passenger 3 First Name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
+        <element label="Vehicle Passenger 2 Last Name" max_length="40" name="vehicle_passenger_2_last_name" type="string"/>
+        <element label="Vehicles" max_length="1024" name="vehicles" reference="x_1526931_claim_fo_other_vehicle" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Consumer" max_length="32" name="consumer" reference="x_1526931_claim_fo_consumer" type="reference"/>
         <index name="index">
+            <element name="consumer"/>
+        </index>
+        <index name="index2">
             <element name="passenger"/>
         </index>
     </element>
