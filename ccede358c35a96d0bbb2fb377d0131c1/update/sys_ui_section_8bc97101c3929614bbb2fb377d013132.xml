@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8bc97101c3929614bbb2fb377d013132" sys_domain="global" table="x_1526931_claim_fo_auto_claim" version="3" view="Policyholderview">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 08:30:06</sys_created_on>
+            <sys_id>acba3541c3929614bbb2fb377d0131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 08:30:06</sys_updated_on>
+            <text>May I have the policy holder's details</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acba3541c3929614bbb2fb377d0131bf</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 08:30:06</sys_created_on>
+            <sys_id>68bab541c3929614bbb2fb377d0131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c7c93101c3929614bbb2fb377d0131b0">8bc97101c3929614bbb2fb377d013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 08:30:06</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>policyholder</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 08:30:06</sys_created_on>
+            <sys_id>ecbab541c3929614bbb2fb377d0131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c7c93101c3929614bbb2fb377d0131b0">8bc97101c3929614bbb2fb377d013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 08:30:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurancepolicy</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 08:30:06</sys_created_on>
+            <sys_id>64bab541c3929614bbb2fb377d0131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c7c93101c3929614bbb2fb377d0131b0">8bc97101c3929614bbb2fb377d013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 08:30:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1526931_claim_fo_auto_claim</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 08:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bc97101c3929614bbb2fb377d013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1526931_claim_fo_auto_claim</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_ui_section_8bc97101c3929614bbb2fb377d013132</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 08:26:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Policyholderview" name="Policyholderview">c7c93101c3929614bbb2fb377d0131b0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

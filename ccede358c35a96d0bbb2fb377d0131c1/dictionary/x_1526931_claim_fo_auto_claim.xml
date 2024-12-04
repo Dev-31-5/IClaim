@@ -4,34 +4,37 @@
         <element attributes="edge_encryption_enabled=true" label="How many pedestrians?" max_length="40" name="how_many_pedestrians" type="integer"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Passenger" max_length="32" name="passenger" reference="x_1526931_claim_fo_passenger" type="reference"/>
         <element label="Vehicle Passenger 1 Last Name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Insurance Policy" max_length="32" name="insurancepolicy" reference="x_1526931_claim_fo_auto_insurance_policy" type="reference"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_3" reference="cmdb_multisource_deny_class" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Injury details" max_length="40" name="injury_details" type="string"/>
         <element label="Make" max_length="40" name="make" type="string"/>
         <element default="united states" label="In what country did the loss occur?" max_length="40" name="in_what_country_did_the_loss_occur" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="insured" label="Requester Role" max_length="40" name="requesterrole" type="string">
             <choice>
-                <element inactive_on_update="false" label="Insured" sequence="0" value="insured"/>
                 <element inactive_on_update="false" label="Agent" sequence="1" value="agent"/>
-                <element inactive_on_update="false" label="Company Representative" sequence="2" value="company representative"/>
                 <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Insured" sequence="0" value="insured"/>
+                <element inactive_on_update="false" label="Company Representative" sequence="2" value="company representative"/>
             </choice>
         </element>
         <element label="Vehicle Passenger 4 First Name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
         <element label="Agency Name" max_length="40" name="agency_name" type="string"/>
         <element label="Vehicle Passenger 4 Last Name" max_length="40" name="vehicle_passenger_4_last_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Policy Holder" max_length="32" name="policyholder" reference="x_1526931_claim_fo_consumer" type="reference"/>
         <element label="How did the accident occur?" max_length="255" name="how_did_the_accident_occur" type="string_full_utf8"/>
         <element label="Vehicle Passenger 2 First Name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
         <element label="Vehicle Passenger 1 First Name" max_length="40" name="vehicle_passenger_1_first_name" type="string"/>
         <element label="New Choice" max_length="40" name="new_choice" type="string"/>
         <element choice="3" default="insured" label="Requester Role" max_length="40" name="requester_role" type="string">
             <choice>
-                <element inactive_on_update="false" label="Company Representative" sequence="1" value="company_rep"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
-                <element inactive_on_update="false" label="Insured" sequence="2" value="insured"/>
-                <element inactive_on_update="false" label="Agent" sequence="0" value="agent"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Insured" sequence="2" value="insured"/>
+                <element inactive_on_update="false" label="Company Representative" sequence="1" value="company_rep"/>
+                <element inactive_on_update="false" label="Agent" sequence="0" value="agent"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
             </choice>
         </element>
         <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
@@ -43,7 +46,16 @@
             <element name="consumer"/>
         </index>
         <index name="index2">
+            <element name="insurancepolicy"/>
+        </index>
+        <index name="index3">
             <element name="passenger"/>
+        </index>
+        <index name="index4">
+            <element name="policyholder"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_3"/>
         </index>
     </element>
 </database>
