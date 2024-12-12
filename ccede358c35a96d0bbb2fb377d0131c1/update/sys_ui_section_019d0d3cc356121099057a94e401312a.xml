@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="019d0d3cc356121099057a94e401312a" sys_domain="global" table="x_1526931_claim_fo_auto_claim" version="3" view="generallossinformation">
+    <sys_ui_section caption=" " section_id="019d0d3cc356121099057a94e401312a" sys_domain="global" table="x_1526931_claim_fo_auto_claim" version="3" view="generallossinformation">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>b199a8b9c31a9654bbb2fb377d0131d8</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>a80ba59bc3169e10bbb2fb377d01312c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <text>May I have the requester's details</text>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b199a8b9c31a9654bbb2fb377d0131d8</element>
+            <element>a80ba59bc3169e10bbb2fb377d01312c</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>3d99e8b9c31a9654bbb2fb377d0131a6</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>a00be59bc3169e10bbb2fb377d013176</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
+            <sys_ui_section caption=" " display_value=" " name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>7999e8b9c31a9654bbb2fb377d0131a7</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>200be59bc3169e10bbb2fb377d013177</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
+            <sys_ui_section caption=" " display_value=" " name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>requester_role</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>7199e8b9c31a9654bbb2fb377d0131a8</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>280be59bc3169e10bbb2fb377d013177</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
+            <sys_ui_section caption=" " display_value=" " name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>consumer</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>7999e8b9c31a9654bbb2fb377d0131a8</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>200be59bc3169e10bbb2fb377d013178</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
+            <sys_ui_section caption=" " display_value=" " name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -71,18 +71,18 @@
             <element>insurancepolicy</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-06 10:31:11</sys_created_on>
-            <sys_id>7199e8b9c31a9654bbb2fb377d0131a9</sys_id>
+            <sys_created_on>2024-12-11 07:07:53</sys_created_on>
+            <sys_id>680be59bc3169e10bbb2fb377d013178</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
+            <sys_ui_section caption=" " display_value=" " name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="c19dc93cc356121099057a94e40131a8">019d0d3cc356121099057a94e401312a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-06 10:31:11</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption> </caption>
             <header>false</header>
             <name>x_1526931_claim_fo_auto_claim</name>
             <roles/>
@@ -92,7 +92,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>019d0d3cc356121099057a94e401312a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_1526931_claim_fo_auto_claim</sys_name>
             <sys_overrides/>
             <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
@@ -100,7 +100,7 @@
             <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
             <sys_update_name>sys_ui_section_019d0d3cc356121099057a94e401312a</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-03 10:34:30</sys_updated_on>
+            <sys_updated_on>2024-12-11 07:07:53</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="generallossinformation" name="generallossinformation">c19dc93cc356121099057a94e40131a8</view>
