@@ -346,7 +346,7 @@
                                 "propertyValues": {
                                     "disableCollapse": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "inRecordPageTab": {
                                         "type": "JSON_LITERAL",
@@ -358,11 +358,11 @@
                                     },
                                     "isContextMenuHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "isFirstSectionTitleHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "isFormOptionsHidden": {
                                         "type": "JSON_LITERAL",
@@ -370,7 +370,7 @@
                                     },
                                     "isRemovePaddingLeft": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "isSectionMenuHidden": {
                                         "type": "JSON_LITERAL",
@@ -782,7 +782,10 @@
                                     },
                                     {
                                         "element_id": "form_default",
-                                        "styles": {}
+                                        "styles": {
+                                            "margin-left": "2%",
+                                            "margin-right": "2%"
+                                        }
                                     },
                                     {
                                         "element_id": "domain_form_layout",
@@ -1708,14 +1711,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-16 09:34:36</sys_created_on>
         <sys_id>5a8c7bb4836e52101a3273d6feaad309</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_5a8c7bb4836e52101a3273d6feaad309</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-16 11:09:38</sys_updated_on>
+        <sys_updated_on>2024-12-17 08:14:13</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=5a8c7bb4836e52101a3273d6feaad309"/>
 </record_update>

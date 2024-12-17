@@ -7,33 +7,465 @@
         <composition>[
     {
         "definition": {
-            "id": "b149d22fc772967dcde6c861d5e67397",
+            "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "login_1",
-        "elementLabel": "Login 1",
+        "elementId": "grid_container_1",
+        "elementLabel": "Grid Container 1",
         "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
         },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "container_1",
+                    "elementLabel": "Container 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "15fe506403f8a98575b6df59008ea8f1",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "image_1",
+                                "elementLabel": "Image 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "alt": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "link": {}
+                                        }
+                                    },
+                                    "fit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "cover"
+                                    },
+                                    "height": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 450
+                                    },
+                                    "href": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "https://www.servicenow.com/"
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "position": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "center center"
+                                    },
+                                    "sources": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    },
+                                    "src": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "x_1526931_claim_fo.login.png"
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 750
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "image_1",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "container_2",
+                    "elementLabel": "Container 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "15fe506403f8a98575b6df59008ea8f1",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "image_2",
+                                "elementLabel": "Image 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "alt": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "link": {}
+                                        }
+                                    },
+                                    "fit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fill"
+                                    },
+                                    "height": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "href": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "https://www.servicenow.com/"
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "position": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "center center"
+                                    },
+                                    "sources": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    },
+                                    "src": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "upload_7219ba109720c21031cbfb000153af7d.png"
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 250
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "b149d22fc772967dcde6c861d5e67397",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "login_1",
+                                "elementLabel": "Login 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmeerhqaaaqaaaawzddffiiffeekjjktobq",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_b82b60b1c35a9654bbb2fb377d0131fe",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "landing-page",
+                                                            "targetRoute": null,
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "fa02560dc36ad210bbb2fb377d01314d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmeerhqaaaqaaaaxaaddffiiffffbbxjjgmki",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "destinationUrl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "heading": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Sign In to your account"
+                                        }
+                                    },
+                                    "logoUrl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "ssoLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "image_2",
+                                        "styles": {
+                                            "height": "50%",
+                                            "margin": "var(--now-scalable-space--xs)",
+                                            "margin-bottom": "var(--now-scalable-space--xs)",
+                                            "margin-left": "var(--now-scalable-space--xs)",
+                                            "margin-right": "var(--now-scalable-space--xs)",
+                                            "margin-top": "var(--now-scalable-space--xs)",
+                                            "padding": "var(--now-scalable-space--xxs)",
+                                            "padding-bottom": "var(--now-scalable-space--xxs)",
+                                            "padding-left": "var(--now-scalable-space--xxs)",
+                                            "padding-right": "var(--now-scalable-space--xxs)",
+                                            "padding-top": "var(--now-scalable-space--xxs)",
+                                            "width": "75%"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "login_1",
+                                        "styles": {
+                                            "height": "80%",
+                                            "padding-left": "5%",
+                                            "padding-right": "5%",
+                                            "width": "50%"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column",
+                                    "padding-left": "30%",
+                                    "padding-top": "10%"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "container_1",
+                            "styles": {
+                                "width": "110%"
+                            }
+                        },
+                        {
+                            "element_id": "container_2",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "grid",
+                        "grid-auto-columns": "1fr",
+                        "grid-auto-rows": "1fr",
+                        "grid-template-columns": "1fr 1fr",
+                        "grid-template-rows": "1fr",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "grid"
+                },
+                "version": "3.0.0"
+            }
+        },
         "preset": null,
         "propertyValues": {
-            "destinationUrl": {
+            "ariaRegionHeadingLevel": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": "1"
             },
-            "heading": {
-                "type": "JSON_LITERAL",
-                "value": null
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
             },
-            "logoUrl": {
+            "ariaRole": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": ""
             },
-            "ssoLabel": {
+            "hideEmptyStateUi": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
             }
         },
         "slot": null,
@@ -44,7 +476,7 @@
         <data>[]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>fa02560dc36ad210bbb2fb377d01314d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -58,7 +490,7 @@
         "children": null,
         "items": [
             {
-                "element_id": "login_1",
+                "element_id": "grid_container_1",
                 "styles": {}
             }
         ],
@@ -76,7 +508,10 @@
         <name>Login</name>
         <output_prop_mapping/>
         <props>[]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Sign In to your account",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
@@ -87,14 +522,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-06 10:37:57</sys_created_on>
         <sys_id>b82b60b1c35a9654bbb2fb377d0131fe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Login</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_b82b60b1c35a9654bbb2fb377d0131fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-06 10:38:18</sys_updated_on>
+        <sys_updated_on>2024-12-16 20:31:50</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b82b60b1c35a9654bbb2fb377d0131fe"/>
 </record_update>

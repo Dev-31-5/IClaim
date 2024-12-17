@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "33d9c57fce38ce281001f4221f2b23e1",
+            "type": "MACROPONENT"
+        },
+        "elementId": "contact_card_1",
+        "elementLabel": "Contact card 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaLabel": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "avatarSrc": {
+                "type": "JSON_LITERAL",
+                "value": "/4a31e5d43740310042106710ce41f1a0.iix?t=small"
+            },
+            "content": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "clickable": true,
+                        "id": "mobile-link",
+                        "label": "Mobile Phone",
+                        "value": "+1 858 867 5306"
+                    },
+                    {
+                        "clickable": true,
+                        "id": "phone-link",
+                        "label": "Business Phone",
+                        "value": "+1 858 867 5306"
+                    },
+                    {
+                        "clickable": true,
+                        "id": "email-link",
+                        "label": "Email",
+                        "value": "julie.lewis@boxeo.com"
+                    },
+                    {
+                        "label": "City",
+                        "value": "San Diego"
+                    },
+                    {
+                        "label": "State",
+                        "value": "California"
+                    }
+                ]
+            },
+            "headingBadges": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "color": "positive",
+                        "label": "VIP"
+                    },
+                    {
+                        "color": "low",
+                        "label": "6:56 PM PDT"
+                    }
+                ]
+            },
+            "headingLevel": {
+                "type": "JSON_LITERAL",
+                "value": 3
+            },
+            "headingName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Julie Lewis"
+                }
+            },
+            "headingVariant": {
+                "type": "JSON_LITERAL",
+                "value": "title-primary"
+            },
+            "hideBorder": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "subHeadingBadges": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "color": "critical",
+                        "label": "Escalated"
+                    }
+                ]
+            },
+            "subHeadingTitles": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "label": "Network Administrator"
+                    },
+                    {
+                        "clickable": true,
+                        "id": "account-link",
+                        "label": "Boxeo"
+                    }
+                ]
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "contact_card_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Submit claim Page</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "6:56 PM PDT",
+  "comment" : ""
+}, {
+  "message" : "Boxeo",
+  "comment" : ""
+}, {
+  "message" : "Business Phone",
+  "comment" : ""
+}, {
+  "message" : "City",
+  "comment" : ""
+}, {
+  "message" : "Email",
+  "comment" : ""
+}, {
+  "message" : "Escalated",
+  "comment" : ""
+}, {
+  "message" : "Julie Lewis",
+  "comment" : ""
+}, {
+  "message" : "Mobile Phone",
+  "comment" : ""
+}, {
+  "message" : "Network Administrator",
+  "comment" : ""
+}, {
+  "message" : "State",
+  "comment" : ""
+}, {
+  "message" : "VIP",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 08:16:12</sys_created_on>
+        <sys_id>2b24fc19c3e2d610bbb2fb377d0131b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Submit claim Page</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2b24fc19c3e2d610bbb2fb377d0131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 08:18:39</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b24fc19c3e2d610bbb2fb377d0131b2"/>
+</record_update>

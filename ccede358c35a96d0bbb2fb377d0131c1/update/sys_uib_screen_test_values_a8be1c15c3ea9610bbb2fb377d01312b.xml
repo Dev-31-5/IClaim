@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "",
+        "fields": null,
+        "headerConfigId": "",
+        "highlightedValueConfigId": "",
+        "inputSysId": "-1",
+        "inputTable": "x_1526931_claim_fo_other_vehicle",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "ribbonConfigId": "",
+        "shouldSuppressGlobalEvents": true,
+        "skipRelatedListEval": false,
+        "view": "getothervehicles",
+        "viewRuleConfigId": ""
+    },
+    "table": "x_1526931_claim_fo_pedestrian",
+    "sysId": "-1",
+    "views": "somearbitraryvaluethatwouldneverexist"
+}</macroponent_config>
+        <screen display_value="pedestrian">e4be1c15c3ea9610bbb2fb377d013127</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 06:42:19</sys_created_on>
+        <sys_id>a8be1c15c3ea9610bbb2fb377d01312b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_a8be1c15c3ea9610bbb2fb377d01312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 07:03:41</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
