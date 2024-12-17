@@ -6,13 +6,13 @@
         <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[
     {
-        "eventMappingId": "cmeesffssinaaaaykddjiiffstzefgjjdd",
+        "eventMappingId": "cmeesghhdzdaaaayiddjiiffiffswnbbwff",
         "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+        "sourceEventApiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+            "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
             "id": null,
             "type": "UXEVENT"
         },
@@ -26,85 +26,85 @@
                 "conditional": null,
                 "declarativeAction": null,
                 "event": {
-                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
                     "payload": {
                         "container": {
-                            "bare": {
+                            "external": {
                                 "binding": {
                                     "address": [
-                                        "bare"
+                                        "external"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "displayOptions": {
+                            "fields": {
                                 "binding": {
                                     "address": [
-                                        "displayOptions"
+                                        "fields"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "headerLabel": {
+                            "multiInstField": {
                                 "binding": {
                                     "address": [
-                                        "headerLabel"
+                                        "multiInstField"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "modalId": {
+                            "navigationOptions": {
                                 "binding": {
                                     "address": [
-                                        "modalId"
+                                        "navigationOptions"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "preserveState": {
+                            "params": {
                                 "binding": {
                                     "address": [
-                                        "preserveState"
+                                        "params"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "showModal": {
+                            "passiveNavigation": {
                                 "binding": {
                                     "address": [
-                                        "showModal"
+                                        "passiveNavigation"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportElementId": {
+                            "redirect": {
                                 "binding": {
                                     "address": [
-                                        "viewportElementId"
+                                        "redirect"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportFields": {
+                            "route": {
                                 "binding": {
                                     "address": [
-                                        "viewportFields"
+                                        "route"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportParams": {
+                            "targetRoute": {
                                 "binding": {
                                     "address": [
-                                        "viewportParams"
+                                        "targetRoute"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportRoute": {
+                            "title": {
                                 "binding": {
                                     "address": [
-                                        "viewportRoute"
+                                        "title"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
@@ -112,22 +112,22 @@
                         },
                         "type": "MAP_CONTAINER"
                     },
-                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
                 },
                 "operation": null,
-                "targetId": "cmeesffssinaaaayjddjiiffccmggxggtws",
+                "targetId": "cmeesghhdzcaaaayhddjiiffclrwneeffy",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmeesbbddsfaaaaxtddjiiffcfazddiffj",
+        "eventMappingId": "cmeesgjjggsddaaaazoddjiiffyhhjbbuaale",
         "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+        "sourceEventApiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+            "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
             "id": null,
             "type": "UXEVENT"
         },
@@ -141,85 +141,85 @@
                 "conditional": null,
                 "declarativeAction": null,
                 "event": {
-                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
                     "payload": {
                         "container": {
-                            "bare": {
+                            "external": {
                                 "binding": {
                                     "address": [
-                                        "bare"
+                                        "external"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "displayOptions": {
+                            "fields": {
                                 "binding": {
                                     "address": [
-                                        "displayOptions"
+                                        "fields"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "headerLabel": {
+                            "multiInstField": {
                                 "binding": {
                                     "address": [
-                                        "headerLabel"
+                                        "multiInstField"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "modalId": {
+                            "navigationOptions": {
                                 "binding": {
                                     "address": [
-                                        "modalId"
+                                        "navigationOptions"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "preserveState": {
+                            "params": {
                                 "binding": {
                                     "address": [
-                                        "preserveState"
+                                        "params"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "showModal": {
+                            "passiveNavigation": {
                                 "binding": {
                                     "address": [
-                                        "showModal"
+                                        "passiveNavigation"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportElementId": {
+                            "redirect": {
                                 "binding": {
                                     "address": [
-                                        "viewportElementId"
+                                        "redirect"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportFields": {
+                            "route": {
                                 "binding": {
                                     "address": [
-                                        "viewportFields"
+                                        "route"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportParams": {
+                            "targetRoute": {
                                 "binding": {
                                     "address": [
-                                        "viewportParams"
+                                        "targetRoute"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
                             },
-                            "viewportRoute": {
+                            "title": {
                                 "binding": {
                                     "address": [
-                                        "viewportRoute"
+                                        "title"
                                     ]
                                 },
                                 "type": "EVENT_PAYLOAD_BINDING"
@@ -227,22 +227,22 @@
                         },
                         "type": "MAP_CONTAINER"
                     },
-                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
                 },
                 "operation": null,
-                "targetId": "cmeesbbddsfaaaaxsddjiiffmsdogjjjjj",
+                "targetId": "cmeesgjjggsddaaaaznddjiiffvooaajjjjdbb",
                 "type": "EVENT"
             }
         ]
     },
     {
-        "eventMappingId": "cmeesbcidffaaaaykddjiiffboeccaadvf",
+        "eventMappingId": "cmeesgbaggxaabbbbiiddjiiffgjlhhplax",
         "isConfiguration": false,
         "offRowStorageId": null,
-        "sourceEventApiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+        "sourceEventApiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
         "sourceEventCorrelationId": null,
         "sourceEventDefinition": {
-            "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_bd6aa8d5c3a2121099057a94e4013116",
+            "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_8097e119c3e6121099057a94e401318f",
             "id": null,
             "type": "UXEVENT"
         },
@@ -345,13 +345,13 @@
                     "sysId": "882eed4091382d3a41f1bb3f382ae089"
                 },
                 "operation": null,
-                "targetId": "cmeesbcidffaaaayjddjiiffnddzdddpccj",
+                "targetId": "cmeesgbaggwaabbbbhhddjiiffwhhjjddaaidddd",
                 "type": "EVENT"
             }
         ]
     }
 ]</event_mappings>
-        <macroponent display_value="Witnesses">bd6aa8d5c3a2121099057a94e4013116</macroponent>
+        <macroponent display_value="Damaged Properties">8097e119c3e6121099057a94e401318f</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -382,28 +382,28 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>Witnesses</name>
+        <name>Damaged Properties</name>
         <order>0</order>
         <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Witnesses">b16a60d5c3a2121099057a94e40131c2</screen_type>
+        <screen_type display_value="Damaged Properties">4497edd5c3e6121099057a94e4013140</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-17 07:33:29</sys_created_on>
+        <sys_created_on>2024-12-17 12:00:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>316aa8d5c3a2121099057a94e401311a</sys_id>
+        <sys_id>4c97e119c3e6121099057a94e4013192</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Witnesses</sys_name>
+        <sys_name>Damaged Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-        <sys_update_name>sys_ux_screen_316aa8d5c3a2121099057a94e401311a</sys_update_name>
+        <sys_update_name>sys_ux_screen_4c97e119c3e6121099057a94e4013192</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-17 10:30:33</sys_updated_on>
+        <sys_updated_on>2024-12-17 12:45:36</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=316aa8d5c3a2121099057a94e401311a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c97e119c3e6121099057a94e4013192"/>
 </record_update>
