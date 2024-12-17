@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="78bec58183de92107b9ff7a6feaad3af" sys_domain="global" table="x_1526931_claim_fo_damaged_property" version="3" view="updateproperties">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_1</element>
+            <element>property_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>91e3514983de92107b9ff7a6feaad302</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>df734959c326121099057a94e40131b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_2</element>
+            <element>property_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>19e3514983de92107b9ff7a6feaad302</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>d7734959c326121099057a94e40131b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_string_3</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>9de3514983de92107b9ff7a6feaad302</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>df734959c326121099057a94e40131b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_string_4</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>15e3514983de92107b9ff7a6feaad303</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>d7734959c326121099057a94e40131b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_string_5</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>99e3514983de92107b9ff7a6feaad303</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>df734959c326121099057a94e40131b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_string_6</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>11e3514983de92107b9ff7a6feaad304</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>d7734959c326121099057a94e40131b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>u_string_7</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 05:40:35</sys_created_on>
-            <sys_id>95e3514983de92107b9ff7a6feaad304</sys_id>
+            <sys_created_on>2024-12-17 09:23:04</sys_created_on>
+            <sys_id>df734959c326121099057a94e40131b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_damaged_property" sys_domain="global" view="34bec58183de92107b9ff7a6feaad3aa">78bec58183de92107b9ff7a6feaad3af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 05:40:35</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:23:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
