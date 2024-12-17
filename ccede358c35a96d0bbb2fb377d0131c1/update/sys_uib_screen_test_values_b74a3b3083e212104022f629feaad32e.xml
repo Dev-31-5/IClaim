@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "-1",
+        "inputTable": "x_1526931_claim_fo_auto_claim",
+        "isMappedToAppShell": true,
+        "shouldSuppressGlobalEvents": true,
+        "view": "generallossdetails"
+    },
+    "table": "x_1526931_claim_fo_auto_claim",
+    "sysId": "-1",
+    "views": "somearbitraryvaluethatwouldneverexist"
+}</macroponent_config>
+        <screen display_value="general Loss details">e34a3b3083e212104022f629feaad31e</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-16 09:24:51</sys_created_on>
+        <sys_id>b74a3b3083e212104022f629feaad32e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_b74a3b3083e212104022f629feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 10:33:18</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

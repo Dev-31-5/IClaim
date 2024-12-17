@@ -3,44 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 09:30:25</sys_created_on>
+            <sys_created_on>2024-12-17 09:37:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c4880a05c3d69614bbb2fb377d013138</sys_id>
+            <sys_id>ecb6c59d832212104022f629feaad3b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1526931_claim_fo_auto_claim" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">48880a05c3d69614bbb2fb377d013134</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">bc890405832612104022f629feaad3c2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 09:30:25</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 09:30:25</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>80880a05c3d69614bbb2fb377d013139</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1526931_claim_fo_auto_claim" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">48880a05c3d69614bbb2fb377d013134</sys_ui_form>
-            <sys_ui_section caption="Loss Location" display_value="Loss Location" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">88888605c3d69614bbb2fb377d0131d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 09:30:25</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-04 09:30:25</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c8880a05c3d69614bbb2fb377d01313c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1526931_claim_fo_auto_claim" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">48880a05c3d69614bbb2fb377d013134</sys_ui_form>
-            <sys_ui_section caption="Additional Details" display_value="Additional Details" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">4c888605c3d69614bbb2fb377d0131d6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-04 09:30:25</sys_updated_on>
+            <sys_updated_on>2024-12-17 09:37:06</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1526931_claim_fo_auto_claim</name>

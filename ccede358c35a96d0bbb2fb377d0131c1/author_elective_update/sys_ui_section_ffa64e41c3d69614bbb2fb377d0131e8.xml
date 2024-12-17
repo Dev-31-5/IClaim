@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="ffa64e41c3d69614bbb2fb377d0131e8" sys_domain="global" table="x_1526931_claim_fo_auto_claim" version="3" view="generallossdetails">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_time</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>94880a05c3d69614bbb2fb377d0131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_of_loss</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>1c880a05c3d69614bbb2fb377d0131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>causeofloss</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>90880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wherethereanydeath</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>18880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>9c880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weretherepedestriansinvolved</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>14880a05c3d69614bbb2fb377d0131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_pedestrians</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>98880a05c3d69614bbb2fb377d0131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>howmanyvehicleswereindulged</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>10880a05c3d69614bbb2fb377d0131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>howmanyofthesevehiclesareinsuredunderyourpolicy</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>94880a05c3d69614bbb2fb377d0131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1526931_claim_fo_auto_claim</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffa64e41c3d69614bbb2fb377d0131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1526931_claim_fo_auto_claim</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_ui_section_ffa64e41c3d69614bbb2fb377d0131e8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:22:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="generallossdetails" name="generallossdetails">6ba64e41c3d69614bbb2fb377d0131e4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>988265831b38ca18168f4089bd4bcb70</instance_id>
+        <instance_name>dev240536</instance_name>
+        <name>sys_ui_section_ffa64e41c3d69614bbb2fb377d0131e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ffa64e41c3d69614bbb2fb377d0131e8" sys_domain="global" table="x_1526931_claim_fo_auto_claim" version="3" view="generallossdetails">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_time</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>94880a05c3d69614bbb2fb377d0131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_of_loss</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>1c880a05c3d69614bbb2fb377d0131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>causeofloss</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>90880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wherethereanydeath</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>18880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>9c880a05c3d69614bbb2fb377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weretherepedestriansinvolved</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>14880a05c3d69614bbb2fb377d0131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_pedestrians</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>98880a05c3d69614bbb2fb377d0131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>howmanyvehicleswereindulged</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>10880a05c3d69614bbb2fb377d0131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>howmanyofthesevehiclesareinsuredunderyourpolicy</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:30:26</sys_created_on>
+            <sys_id>94880a05c3d69614bbb2fb377d0131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="6ba64e41c3d69614bbb2fb377d0131e4">ffa64e41c3d69614bbb2fb377d0131e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1526931_claim_fo_auto_claim</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 09:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffa64e41c3d69614bbb2fb377d0131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1526931_claim_fo_auto_claim</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_ui_section_ffa64e41c3d69614bbb2fb377d0131e8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 09:22:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="generallossdetails" name="generallossdetails">6ba64e41c3d69614bbb2fb377d0131e4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1977664626</payload_hash>
+        <record_name>Auto Claim</record_name>
+        <reverted_from/>
+        <source>6826891d832212104022f629feaad3bf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 09:36:30</sys_created_on>
+        <sys_id>7786cd5d832212104022f629feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193d3f9e6880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 09:36:30</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>3386cd5d9c221210b78b499242c2b5a1</update_guid>
+        <update_guid_history>3386cd5d9c221210b78b499242c2b5a1:0,49890405502612109456625c951b9fee:167527763,e2a2c5d5102212100eac9f1a59c15867:0,49890405502612109456625c951b9fee:167527763,da64008d57e212102e89374d1881402a:-1143781429,5914444d62e21210d3c32a3678cb30cd:-942494472,7304444d92e21210134612c1ca6ca32a:149716778,82cdbbaeda9e5210cfebbf5bce3e61fc:-1977664626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 09:37:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>23c86fa8cd5649d9ab03aaf44f5587c9</sys_id>
+        <sys_metadata>ffa64e41c3d69614bbb2fb377d0131e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1526931_claim_fo_auto_claim</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent display_value="Auto Claim">a0e618f8831212108090f0d6feaad37a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ffa64e41c3d69614bbb2fb377d0131e8</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ffa64e41c3d69614bbb2fb377d0131e8">7786cd5d832212104022f629feaad3a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 09:37:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
