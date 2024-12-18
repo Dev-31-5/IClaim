@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "-1",
+        "inputTable": "x_1526931_claim_fo_damaged_property",
+        "shouldSuppressGlobalEvents": true,
+        "isMappedToAppShell": true
+    },
+    "table": "x_1526931_claim_fo_damaged_property",
+    "sysId": "-1",
+    "sysId2": "-1"
+}</macroponent_config>
+        <screen display_value="Update Damaged Properties">5ca339d5c32a121099057a94e40131ca</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 12:53:24</sys_created_on>
+        <sys_id>94a339d5c32a121099057a94e40131ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_94a339d5c32a121099057a94e40131ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 13:02:57</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
