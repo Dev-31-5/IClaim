@@ -1396,14 +1396,14 @@
                             },
                             {
                                 "definition": {
-                                    "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                                    "id": "2b1c080881e05dc63b917044290b233f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "list_1",
-                                "elementLabel": "List 1",
+                                "elementId": "list___simple_1",
+                                "elementLabel": "List - Simple 1",
                                 "eventMappings": [
                                     {
-                                        "eventMappingId": "cmeesggcbbulaabbhheeddffiiffszthhsbbbs",
+                                        "eventMappingId": "cmeetlggjfvaaddkcddffiiffugiijzddca",
                                         "isConfiguration": false,
                                         "offRowStorageId": null,
                                         "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
@@ -1423,24 +1423,59 @@
                                                 "event": {
                                                     "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
                                                     "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {
-                                                            "external": null,
-                                                            "fields": null,
-                                                            "multiInstField": null,
-                                                            "navigationOptions": null,
-                                                            "params": null,
-                                                            "passiveNavigation": null,
-                                                            "redirect": null,
-                                                            "route": null,
-                                                            "targetRoute": null,
-                                                            "title": null
-                                                        }
+                                                        "container": {
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "fields": {
+                                                                "container": {
+                                                                    "table": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": null
+                                                                    }
+                                                                },
+                                                                "type": "MAP_CONTAINER"
+                                                            },
+                                                            "multiInstField": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "params": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "route": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "pedestrian"
+                                                            },
+                                                            "targetRoute": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
                                                     },
                                                     "sysId": "9aebe011c362d610bbb2fb377d013182"
                                                 },
                                                 "operation": null,
-                                                "targetId": "cmeesggcbbulaabbhhffddffiiffmaeeeiiddhh",
+                                                "targetId": "cmeetlggjfvaaddkdddffiiffcfiighhlpp",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -1452,13 +1487,9 @@
                                 },
                                 "preset": null,
                                 "propertyValues": {
-                                    "actionConfigId": {
+                                    "bare": {
                                         "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "allRecordsSelected": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "columnPreferenceKey": {
                                         "type": "JSON_LITERAL",
@@ -1468,41 +1499,17 @@
                                         "type": "JSON_LITERAL",
                                         "value": "pedestrian_first_name,pedestrian_last_name"
                                     },
-                                    "daClientActionContract": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "error": {
-                                        "type": "JSON_LITERAL",
-                                        "value": {}
-                                    },
-                                    "exceptedRecords": {
-                                        "type": "JSON_LITERAL",
-                                        "value": []
-                                    },
                                     "fixedQuery": {
                                         "type": "JSON_LITERAL",
                                         "value": ""
                                     },
+                                    "followFilters": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
                                     "groupByField": {
                                         "type": "JSON_LITERAL",
                                         "value": ""
-                                    },
-                                    "headerSize": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "md"
-                                    },
-                                    "headingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": 1
-                                    },
-                                    "hideCellFilter": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideCheckboxHover": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
                                     },
                                     "hideColumnFiltering": {
                                         "type": "JSON_LITERAL",
@@ -1522,31 +1529,15 @@
                                     },
                                     "hideColumnSorting": {
                                         "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideDeclarativeActions": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
+                                        "value": false
                                     },
                                     "hideDotwalk": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "hideDragDrop": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
                                     "hideEmptyStateImage": {
                                         "type": "JSON_LITERAL",
                                         "value": false
-                                    },
-                                    "hideFilterPanel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideFirstPage": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
                                     },
                                     "hideHeader": {
                                         "type": "JSON_LITERAL",
@@ -1564,59 +1555,11 @@
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "hideLastPage": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
                                     "hideLastRefreshedText": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "hideLimitSelector": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
                                     "hideLinks": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideListSharing": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideMenuButton": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideNextPage": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideOptionToSaveAs": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hidePages": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hidePagination": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hidePanelAdvanced": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hidePanelConditionDelete": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hidePanelFooter": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hidePanelRestore": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
@@ -1624,31 +1567,11 @@
                                         "type": "JSON_LITERAL",
                                         "value": true
                                     },
-                                    "hidePreviousPage": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideQuickEdit": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "hideRange": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
                                     "hideRefreshButton": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "hideRowCount": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
                                     "hideRowSelector": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideSelectAll": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
@@ -1660,9 +1583,9 @@
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "hideUnnecessaryRowSelectors": {
+                                    "hideViewAll": {
                                         "type": "JSON_LITERAL",
-                                        "value": true
+                                        "value": false
                                     },
                                     "highlightContent": {
                                         "type": "JSON_LITERAL",
@@ -1675,17 +1598,13 @@
                                         "type": "JSON_LITERAL",
                                         "value": ""
                                     },
-                                    "isRefList": {
+                                    "isDashboard": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
                                     "limit": {
                                         "type": "JSON_LITERAL",
                                         "value": null
-                                    },
-                                    "listMenuOpen": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
                                     },
                                     "listTitle": {
                                         "type": "TRANSLATION_LITERAL",
@@ -1703,10 +1622,6 @@
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "menuSelection": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
                                     "nrlLandmark": {
                                         "type": "JSON_LITERAL",
                                         "value": true
@@ -1714,10 +1629,6 @@
                                     "overrideWordWrapUserPref": {
                                         "type": "JSON_LITERAL",
                                         "value": false
-                                    },
-                                    "page": {
-                                        "type": "JSON_LITERAL",
-                                        "value": 1
                                     },
                                     "query": {
                                         "transform": {
@@ -1743,45 +1654,17 @@
                                         },
                                         "type": "CLIENT_TRANSFORM"
                                     },
-                                    "recordSelectedQuery": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "recordSelectedSysId": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "recordSelectedTable": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "recordSelectedView": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
                                     "refreshRequested": {
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "selectedListId": {
+                                    "showBorder": {
                                         "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "selectedRecords": {
-                                        "type": "JSON_LITERAL",
-                                        "value": []
+                                        "value": false
                                     },
                                     "table": {
                                         "type": "JSON_LITERAL",
                                         "value": "x_1526931_claim_fo_pedestrian"
-                                    },
-                                    "tiny": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "view": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "Default"
                                     },
                                     "wordWrap": {
                                         "type": "JSON_LITERAL",
@@ -2246,14 +2129,14 @@
                                         "styles": {}
                                     },
                                     {
-                                        "element_id": "list_1",
+                                        "element_id": "list___simple_1",
                                         "styles": {
                                             "border-color": "RGB(var(--now-color--neutral-5))",
                                             "border-radius": "var(--now-static-border-radius--sm)",
                                             "border-style": "dotted",
-                                            "border-width": "1px",
-                                            "box-shadow": "var(--now-static-drop-shadow--lg)",
-                                            "margin-bottom": "6%"
+                                            "border-width": "var(--now-static-space--xxs)",
+                                            "box-shadow": "var(--now-static-drop-shadow--md)",
+                                            "margin-bottom": "5%"
                                         }
                                     },
                                     {
@@ -3186,14 +3069,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 06:42:19</sys_created_on>
         <sys_id>acbe1c15c3ea9610bbb2fb377d013123</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>pedestrian</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_acbe1c15c3ea9610bbb2fb377d013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-17 08:10:43</sys_updated_on>
+        <sys_updated_on>2024-12-18 07:56:45</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=acbe1c15c3ea9610bbb2fb377d013123"/>
 </record_update>
