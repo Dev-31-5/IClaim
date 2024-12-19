@@ -10,13 +10,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>New Choice</column_label>
+        <column_label>Vehicle Stolen</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>yes</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-03 06:46:50</sys_created_on>
-        <sys_name>New Choice</sys_name>
+        <sys_name>Vehicle Stolen</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_dictionary_x_1526931_claim_fo_auto_claim_new_choice</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-03 06:46:50</sys_updated_on>
+        <sys_updated_on>2024-12-19 05:45:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

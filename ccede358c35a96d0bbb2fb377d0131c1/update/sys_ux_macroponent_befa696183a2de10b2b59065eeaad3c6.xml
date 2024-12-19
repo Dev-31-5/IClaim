@@ -1190,6 +1190,10 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
                                                             "label": {
                                                                 "type": "TRANSLATION_LITERAL",
                                                                 "value": {
@@ -1320,6 +1324,10 @@
                                                             "configAria": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
                                                             },
                                                             "label": {
                                                                 "type": "TRANSLATION_LITERAL",
@@ -1817,7 +1825,7 @@
                     "styles": {
                         "box-sizing": "border-box",
                         "column-gap": "var(--now-scalable-space--xl)",
-                        "grid-template-columns": "24.996665921972223fr 49.99558629302087fr 24.9977477850069fr",
+                        "grid-template-columns": "19.998676200422455fr 59.99330299576332fr 19.998020803814214fr",
                         "grid-template-rows": "1fr",
                         "height": "1200px",
                         "margin-top": "var(--now-scalable-space--3xl)",
@@ -1888,17 +1896,17 @@
                             {
                                 "columnNumber": 1,
                                 "unit": "%",
-                                "width": 24.996665921972223
+                                "width": 19.998676200422455
                             },
                             {
                                 "columnNumber": 2,
                                 "unit": "%",
-                                "width": 49.99558629302087
+                                "width": 59.99330299576332
                             },
                             {
                                 "columnNumber": 3,
                                 "unit": "%",
-                                "width": 24.9977477850069
+                                "width": 19.998020803814214
                             }
                         ],
                         "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
@@ -2917,14 +2925,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:54:06</sys_created_on>
         <sys_id>befa696183a2de10b2b59065eeaad3c6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Insured vehicle(s)</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_befa696183a2de10b2b59065eeaad3c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-18 07:39:49</sys_updated_on>
+        <sys_updated_on>2024-12-18 10:07:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=befa696183a2de10b2b59065eeaad3c6"/>
 </record_update>
