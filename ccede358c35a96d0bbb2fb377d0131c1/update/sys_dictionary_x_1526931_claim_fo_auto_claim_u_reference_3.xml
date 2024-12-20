@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>New Reference</column_label>
+        <column_label>Damaged Property</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="cmdb_multisource_deny_class">cmdb_multisource_deny_class</reference>
+        <reference display_value="" name="x_1526931_claim_fo_damaged_property">x_1526931_claim_fo_damaged_property</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-04 08:29:08</sys_created_on>
-        <sys_name>New Reference</sys_name>
+        <sys_name>Damaged Property</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_dictionary_x_1526931_claim_fo_auto_claim_u_reference_3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-04 08:29:08</sys_updated_on>
+        <sys_updated_on>2024-12-19 10:53:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
