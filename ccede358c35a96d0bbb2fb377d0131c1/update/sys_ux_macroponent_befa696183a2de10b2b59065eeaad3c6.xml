@@ -1180,13 +1180,17 @@
                                                             "type": "JSON_LITERAL",
                                                             "value": null
                                                         },
-                                                        "preset": {
-                                                            "controllerElementId": "record",
-                                                            "disabledEventTargetIds": [],
-                                                            "id": "2c9b775ba59d59482acacfd67c793517"
-                                                        },
+                                                        "preset": null,
                                                         "propertyValues": {
                                                             "configAria": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "icon": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
@@ -1205,6 +1209,14 @@
                                                             "size": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "md"
+                                                            },
+                                                            "tooltipContent": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Enter a label"
+                                                                }
                                                             },
                                                             "variant": {
                                                                 "type": "JSON_LITERAL",
@@ -1311,13 +1323,17 @@
                                                             "type": "JSON_LITERAL",
                                                             "value": null
                                                         },
-                                                        "preset": {
-                                                            "controllerElementId": "record",
-                                                            "disabledEventTargetIds": [],
-                                                            "id": "2c9b775ba59d59482acacfd67c793517"
-                                                        },
+                                                        "preset": null,
                                                         "propertyValues": {
                                                             "configAria": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "icon": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
@@ -1336,6 +1352,14 @@
                                                             "size": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "md"
+                                                            },
+                                                            "tooltipContent": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Enter a label"
+                                                                }
                                                             },
                                                             "variant": {
                                                                 "type": "JSON_LITERAL",
@@ -2901,6 +2925,9 @@
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;img src=\"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvH5ce1Mg1ld2jkEdAsFLNdoEd6Ag7F2iHLs_1xqvzkOQbZsUx\" width=\"74\" height=\"75\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Insured Vehicle(s)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
   "message" : "Next",
   "comment" : ""
 }, {
@@ -2917,14 +2944,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:54:06</sys_created_on>
         <sys_id>befa696183a2de10b2b59065eeaad3c6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Insured vehicle(s)</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_befa696183a2de10b2b59065eeaad3c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-18 07:39:49</sys_updated_on>
+        <sys_updated_on>2024-12-20 07:07:50</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=befa696183a2de10b2b59065eeaad3c6"/>
 </record_update>

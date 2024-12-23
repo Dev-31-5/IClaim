@@ -547,7 +547,136 @@
                     },
                     "elementId": "stepper_1",
                     "elementLabel": "Stepper 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmffaaxnbyccaaddsggddffiiffbbonudaabs",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_stepper.NOW_STEPPER#SELECTED_ITEM_SET",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_stepper.NOW_STEPPER#SELECTED_ITEM_SET",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": {
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "operation": {
+                                                            "left": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "operator": "EQUAL",
+                                                            "right": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "step1"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": true
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": false
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "IF"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
+                                    },
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_af4a3b3083e212104022f629feaad31a",
+                                        "payload": {
+                                            "container": {
+                                                "external": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "fields": {
+                                                    "container": {
+                                                        "sysId": {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "sysId"
+                                                                ],
+                                                                "category": "props"
+                                                            },
+                                                            "type": "CONTEXT_BINDING"
+                                                        },
+                                                        "table": {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "table"
+                                                                ],
+                                                                "category": "props"
+                                                            },
+                                                            "type": "CONTEXT_BINDING"
+                                                        }
+                                                    },
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "multiInstField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "navigationOptions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "params": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "passiveNavigation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "redirect": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "route": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "initiate-claim"
+                                                },
+                                                "targetRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "title": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        },
+                                        "sysId": "f6a2dc9bc36616d0bbb2fb377d013157"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffaaxnbyddaaddshhddffiiffpifszcrl",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -576,7 +705,7 @@
                                         },
                                         "progress": {
                                             "type": "JSON_LITERAL",
-                                            "value": "none"
+                                            "value": "done"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -597,7 +726,7 @@
                                         },
                                         "progress": {
                                             "type": "JSON_LITERAL",
-                                            "value": "partial"
+                                            "value": "done"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -625,10 +754,6 @@
                                 },
                                 {
                                     "container": {
-                                        "disabled": {
-                                            "type": "JSON_LITERAL",
-                                            "value": true
-                                        },
                                         "id": {
                                             "type": "JSON_LITERAL",
                                             "value": "step4"
@@ -643,7 +768,7 @@
                                         },
                                         "progress": {
                                             "type": "JSON_LITERAL",
-                                            "value": "done"
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -657,6 +782,10 @@
                                                 "comment": "",
                                                 "message": "Insured Vehicle(s)"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -670,6 +799,10 @@
                                                 "comment": "",
                                                 "message": "Other Vehicle(s)"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -683,6 +816,10 @@
                                                 "comment": "",
                                                 "message": "Properties  Damaged"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -696,6 +833,10 @@
                                                 "comment": "",
                                                 "message": "Witnesses"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -709,6 +850,10 @@
                                                 "comment": "",
                                                 "message": "Pedistrain(s)"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -722,6 +867,10 @@
                                                 "comment": "",
                                                 "message": "Review Claim"
                                             }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
                                         }
                                     },
                                     "type": "MAP_CONTAINER"
@@ -743,7 +892,7 @@
                         },
                         "selectedItem": {
                             "type": "JSON_LITERAL",
-                            "value": null
+                            "value": "step3"
                         },
                         "showCompletedCount": {
                             "type": "JSON_LITERAL",
@@ -3135,7 +3284,7 @@
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>f6a2dc9bc36616d0bbb2fb377d013157</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -3252,19 +3401,30 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties/>
+        <state_properties>[
+    {
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "step1"
+        },
+        "name": "step",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-16 09:24:51</sys_created_on>
         <sys_id>af4a3b3083e212104022f629feaad31a</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>general Loss details</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_af4a3b3083e212104022f629feaad31a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-18 09:42:05</sys_updated_on>
+        <sys_updated_on>2024-12-23 11:16:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=af4a3b3083e212104022f629feaad31a"/>
 </record_update>
