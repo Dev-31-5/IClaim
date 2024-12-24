@@ -1507,20 +1507,20 @@
                                                                                 "sysId": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
                                                                                             "sysId"
-                                                                                        ]
+                                                                                        ],
+                                                                                        "category": "props"
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "CONTEXT_BINDING"
                                                                                 },
                                                                                 "table": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
                                                                                             "table"
-                                                                                        ]
+                                                                                        ],
+                                                                                        "category": "props"
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "CONTEXT_BINDING"
                                                                                 }
                                                                             },
                                                                             "type": "MAP_CONTAINER"
@@ -1628,7 +1628,7 @@
                                             "elementLabel": "Button 3",
                                             "eventMappings": [
                                                 {
-                                                    "eventMappingId": "cmffaatmldxaaaazjddjiiffccryrwxsl",
+                                                    "eventMappingId": "cmffbbzbbinhhaaddmaaddjiiffaaeedaawgj",
                                                     "isConfiguration": false,
                                                     "offRowStorageId": null,
                                                     "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -1640,6 +1640,24 @@
                                                     },
                                                     "sourceEventSysId": null,
                                                     "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": {
+                                                                "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                                                                "operationName": "CTRL_RECORD#SAVE_FORM",
+                                                                "parentResourceId": "record",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {}
+                                                                }
+                                                            },
+                                                            "targetId": "cmffbbzbbinhhaaddmbbddjiiffaaeeqlkynh",
+                                                            "type": "DATABROKER_OP"
+                                                        },
                                                         {
                                                             "broker": null,
                                                             "clientScript": null,
@@ -1658,20 +1676,20 @@
                                                                                 "sysId": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
                                                                                             "sysId"
-                                                                                        ]
+                                                                                        ],
+                                                                                        "category": "props"
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "CONTEXT_BINDING"
                                                                                 },
                                                                                 "table": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
                                                                                             "table"
-                                                                                        ]
+                                                                                        ],
+                                                                                        "category": "props"
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "CONTEXT_BINDING"
                                                                                 }
                                                                             },
                                                                             "type": "MAP_CONTAINER"
@@ -1714,7 +1732,7 @@
                                                                 "sysId": "8fe8b7cbc3ae161099057a94e401311e"
                                                             },
                                                             "operation": null,
-                                                            "targetId": "cmffaatmldxaaaazkddjiiffqyznzlws",
+                                                            "targetId": "cmffbbzbbpziaaddmccddjiiffddqmiixneef",
                                                             "type": "EVENT"
                                                         }
                                                     ]
@@ -3390,14 +3408,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 07:33:28</sys_created_on>
         <sys_id>bd6aa8d5c3a2121099057a94e4013116</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Witnesses</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_bd6aa8d5c3a2121099057a94e4013116</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-23 09:34:27</sys_updated_on>
+        <sys_updated_by>Durga</sys_updated_by>
+        <sys_updated_on>2024-12-24 04:34:52</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bd6aa8d5c3a2121099057a94e4013116"/>
 </record_update>

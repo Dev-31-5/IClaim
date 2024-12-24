@@ -685,7 +685,100 @@
                                                                     },
                                                                     "elementId": "button_1",
                                                                     "elementLabel": "Button 1",
-                                                                    "eventMappings": [],
+                                                                    "eventMappings": [
+                                                                        {
+                                                                            "eventMappingId": "cmffbbhhayzpaaccsxddjiiffoyddfaajef",
+                                                                            "isConfiguration": false,
+                                                                            "offRowStorageId": null,
+                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                            "sourceEventCorrelationId": null,
+                                                                            "sourceEventDefinition": {
+                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                "id": null,
+                                                                                "type": "UXEVENT"
+                                                                            },
+                                                                            "sourceEventSysId": null,
+                                                                            "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": {
+                                                                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_43d7e12d8362de10b2b59065eeaad323",
+                                                                                        "payload": {
+                                                                                            "container": {
+                                                                                                "external": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "fields": {
+                                                                                                    "container": {
+                                                                                                        "sysId": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "sysId"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        },
+                                                                                                        "table": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "table"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "type": "MAP_CONTAINER"
+                                                                                                },
+                                                                                                "multiInstField": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "navigationOptions": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "params": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "passiveNavigation": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "redirect": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "route": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": "loss-details"
+                                                                                                },
+                                                                                                "targetRoute": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "title": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                }
+                                                                                            },
+                                                                                            "type": "MAP_CONTAINER"
+                                                                                        },
+                                                                                        "sysId": "2b7e4ddfc36a56d0bbb2fb377d013109"
+                                                                                    },
+                                                                                    "operation": null,
+                                                                                    "targetId": "cmffbbhhayzpaaccsyddjiiffabjiiiqeen",
+                                                                                    "type": "EVENT"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -709,7 +802,7 @@
                                                                             "value": {
                                                                                 "code": null,
                                                                                 "comment": "",
-                                                                                "message": "Button"
+                                                                                "message": "Previous"
                                                                             }
                                                                         },
                                                                         "landmark": {
@@ -813,7 +906,118 @@
                                                                     },
                                                                     "elementId": "button_2",
                                                                     "elementLabel": "Button 2",
-                                                                    "eventMappings": [],
+                                                                    "eventMappings": [
+                                                                        {
+                                                                            "eventMappingId": "cmffbbhhcrdddaaccubbddjiiffddeehhwkffjl",
+                                                                            "isConfiguration": false,
+                                                                            "offRowStorageId": null,
+                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                            "sourceEventCorrelationId": null,
+                                                                            "sourceEventDefinition": {
+                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                "id": null,
+                                                                                "type": "UXEVENT"
+                                                                            },
+                                                                            "sourceEventSysId": null,
+                                                                            "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": null,
+                                                                                    "operation": {
+                                                                                        "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                                                                                        "operationName": "CTRL_RECORD#SAVE_FORM",
+                                                                                        "parentResourceId": "record",
+                                                                                        "payload": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    },
+                                                                                    "targetId": "cmffbbhhcrdddaaccuccddjiiffaaddffedbon",
+                                                                                    "type": "DATABROKER_OP"
+                                                                                },
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": {
+                                                                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_43d7e12d8362de10b2b59065eeaad323",
+                                                                                        "payload": {
+                                                                                            "container": {
+                                                                                                "external": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "fields": {
+                                                                                                    "container": {
+                                                                                                        "sysId": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "sysId"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        },
+                                                                                                        "table": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "table"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "type": "MAP_CONTAINER"
+                                                                                                },
+                                                                                                "multiInstField": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "navigationOptions": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "params": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "passiveNavigation": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "redirect": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "route": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": "insured-vehicles"
+                                                                                                },
+                                                                                                "targetRoute": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "title": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                }
+                                                                                            },
+                                                                                            "type": "MAP_CONTAINER"
+                                                                                        },
+                                                                                        "sysId": "2b7e4ddfc36a56d0bbb2fb377d013109"
+                                                                                    },
+                                                                                    "operation": null,
+                                                                                    "targetId": "cmffbbhhdaarnaaccuddddjiiffyaatbbccsfcc",
+                                                                                    "type": "EVENT"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
                                                                         "value": null
@@ -837,7 +1041,7 @@
                                                                             "value": {
                                                                                 "code": null,
                                                                                 "comment": "",
-                                                                                "message": "Button"
+                                                                                "message": "Next"
                                                                             }
                                                                         },
                                                                         "landmark": {
@@ -2067,7 +2271,7 @@
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>2b7e4ddfc36a56d0bbb2fb377d013109</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -2131,10 +2335,13 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "Button",
+  "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Enter a label",
+  "message" : "Next",
+  "comment" : ""
+}, {
+  "message" : "Previous",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2147,14 +2354,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:40:28</sys_created_on>
         <sys_id>43d7e12d8362de10b2b59065eeaad323</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Emergency Services</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_43d7e12d8362de10b2b59065eeaad323</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-20 10:25:34</sys_updated_on>
+        <sys_updated_by>Durga</sys_updated_by>
+        <sys_updated_on>2024-12-23 15:40:00</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=43d7e12d8362de10b2b59065eeaad323"/>
 </record_update>

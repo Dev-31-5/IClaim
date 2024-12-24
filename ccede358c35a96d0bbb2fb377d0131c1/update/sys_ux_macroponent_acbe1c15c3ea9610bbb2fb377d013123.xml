@@ -546,7 +546,51 @@
                                             },
                                             "elementId": "button_2",
                                             "elementLabel": "Button 2",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "cmffccjjfxgaaaabbaahhddffiiffgggqmjjrco",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "bare": false,
+                                                                        "displayOptions": null,
+                                                                        "headerLabel": null,
+                                                                        "modalId": "[component-id$='custom_1']",
+                                                                        "preserveState": false,
+                                                                        "showModal": false,
+                                                                        "viewportElementId": null,
+                                                                        "viewportFields": null,
+                                                                        "viewportParams": null,
+                                                                        "viewportRoute": null
+                                                                    }
+                                                                },
+                                                                "sysId": "30be5855c3aa9610bbb2fb377d01314a"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmffccjjfxgaaaabbaaiiddffiiffgqrnaiibg",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -635,6 +679,34 @@
                                                             },
                                                             "targetId": "cmeevhhccxrxaacclccddffiiffkddxcjjffyii",
                                                             "type": "DATABROKER_OP"
+                                                        },
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1526931_claim_fo.MODAL_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "bare": false,
+                                                                        "displayOptions": null,
+                                                                        "headerLabel": null,
+                                                                        "modalId": "[component-id$='custom_1']",
+                                                                        "preserveState": false,
+                                                                        "showModal": false,
+                                                                        "viewportElementId": null,
+                                                                        "viewportFields": null,
+                                                                        "viewportParams": null,
+                                                                        "viewportRoute": null
+                                                                    }
+                                                                },
+                                                                "sysId": "30be5855c3aa9610bbb2fb377d01314a"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmffccjjdioiiaaaaynddffiiffeefccccrqeev",
+                                                            "type": "EVENT"
                                                         }
                                                     ]
                                                 }
@@ -865,7 +937,7 @@
             },
             "disableDismiss": {
                 "type": "JSON_LITERAL",
-                "value": false
+                "value": true
             },
             "enableResizable": {
                 "type": "JSON_LITERAL",
@@ -1534,8 +1606,28 @@
                                         "value": "pedestrian_first_name,pedestrian_last_name"
                                     },
                                     "fixedQuery": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": "claim="
+                                                    },
+                                                    {
+                                                        "binding": {
+                                                            "address": [
+                                                                "record",
+                                                                "sysId"
+                                                            ]
+                                                        },
+                                                        "type": "DATA_OUTPUT_BINDING"
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "CONCAT"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
                                     },
                                     "followFilters": {
                                         "type": "JSON_LITERAL",
@@ -3103,14 +3195,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 06:42:19</sys_created_on>
         <sys_id>acbe1c15c3ea9610bbb2fb377d013123</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>pedestrian</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_acbe1c15c3ea9610bbb2fb377d013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-19 10:45:11</sys_updated_on>
+        <sys_updated_on>2024-12-24 09:29:55</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=acbe1c15c3ea9610bbb2fb377d013123"/>
 </record_update>

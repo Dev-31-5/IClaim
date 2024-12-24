@@ -457,7 +457,39 @@
                                 },
                                 "elementId": "form_default",
                                 "elementLabel": "Form Default",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "clslxjjrjraaaaaaggiibmxfhhjcbbxmff",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_now_record_form.NOW_RECORD_FORM_SECTION_COLUMN_LAYOUT#SET_USER_VALUE",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_now_record_form.NOW_RECORD_FORM_SECTION_COLUMN_LAYOUT#SET_USER_VALUE",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": {
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    },
+                                                    "sysId": "bd37e72dc32ede10bbb2fb377d01314b"
+                                                },
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": null,
+                                                "targetId": "cmeeuddmztxaabbccjjddffiiffgwffxccmrz",
+                                                "type": "CLIENT_SCRIPT"
+                                            }
+                                        ]
+                                    }
+                                ],
                                 "extensionPoints": [],
                                 "isHero": false,
                                 "isNonDestructive": false,
@@ -504,6 +536,15 @@
                                     "scrollableHost": {
                                         "type": "JSON_LITERAL",
                                         "value": null
+                                    },
+                                    "userSession": {
+                                        "binding": {
+                                            "address": [
+                                                "user"
+                                            ],
+                                            "category": "session"
+                                        },
+                                        "type": "CONTEXT_BINDING"
                                     }
                                 },
                                 "slot": null,
@@ -654,37 +695,6 @@
                                                             "clientScript": null,
                                                             "conditional": null,
                                                             "declarativeAction": null,
-                                                            "event": {
-                                                                "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_746764b9c3d69654bbb2fb377d0131d6",
-                                                                "payload": {
-                                                                    "type": "JSON_LITERAL",
-                                                                    "value": {
-                                                                        "external": null,
-                                                                        "fields": {
-                                                                            "sysId": "@data.glide_form_1.nowRecordFormBlob.sysId",
-                                                                            "table": "@data.glide_form_1.nowRecordFormBlob.table"
-                                                                        },
-                                                                        "multiInstField": null,
-                                                                        "navigationOptions": null,
-                                                                        "params": null,
-                                                                        "passiveNavigation": null,
-                                                                        "redirect": null,
-                                                                        "route": "policy-holder-details",
-                                                                        "targetRoute": null,
-                                                                        "title": null
-                                                                    }
-                                                                },
-                                                                "sysId": "56913623c39e1650bbb2fb377d0131b7"
-                                                            },
-                                                            "operation": null,
-                                                            "targetId": "cmeekysldxaaaawwddffiiffnfaavpvdx",
-                                                            "type": "EVENT"
-                                                        },
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": null,
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
                                                             "event": null,
                                                             "operation": {
                                                                 "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
@@ -697,6 +707,83 @@
                                                             },
                                                             "targetId": "cmeekzddvjbaaaaylddffiiffaakjggaapvb",
                                                             "type": "DATABROKER_OP"
+                                                        },
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_746764b9c3d69654bbb2fb377d0131d6",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "external": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "fields": {
+                                                                            "container": {
+                                                                                "sysId": {
+                                                                                    "binding": {
+                                                                                        "address": [
+                                                                                            "sysId"
+                                                                                        ],
+                                                                                        "category": "props"
+                                                                                    },
+                                                                                    "type": "CONTEXT_BINDING"
+                                                                                },
+                                                                                "table": {
+                                                                                    "binding": {
+                                                                                        "address": [
+                                                                                            "table"
+                                                                                        ],
+                                                                                        "category": "props"
+                                                                                    },
+                                                                                    "type": "CONTEXT_BINDING"
+                                                                                }
+                                                                            },
+                                                                            "type": "MAP_CONTAINER"
+                                                                        },
+                                                                        "multiInstField": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "navigationOptions": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "params": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "passiveNavigation": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "redirect": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "route": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "policy-holder-details"
+                                                                        },
+                                                                        "targetRoute": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "title": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "56913623c39e1650bbb2fb377d0131b7"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmeevggsvdwaabbveddjiifffgddvptwm",
+                                                            "type": "EVENT"
                                                         }
                                                     ]
                                                 }
@@ -1784,14 +1871,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-06 10:21:34</sys_created_on>
         <sys_id>746764b9c3d69654bbb2fb377d0131d6</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Auto Claim</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_746764b9c3d69654bbb2fb377d0131d6</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 07:17:56</sys_updated_on>
+        <sys_updated_by>Durga</sys_updated_by>
+        <sys_updated_on>2024-12-19 10:37:44</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=746764b9c3d69654bbb2fb377d0131d6"/>
 </record_update>

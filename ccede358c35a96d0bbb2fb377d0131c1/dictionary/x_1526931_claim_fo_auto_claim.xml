@@ -95,7 +95,7 @@
         <element label="Vehicles" max_length="1024" name="vehicles" reference="x_1526931_claim_fo_other_vehicle" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Police report details" max_length="400" name="u_string_5" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Police report date" max_length="40" name="u_glide_date_6" type="glide_date"/>
-        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" label="Consumer" max_length="32" name="consumer" reference="x_1526931_claim_fo_consumer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserId()" label="Consumer" max_length="32" name="consumer" reference="sys_user" type="reference"/>
         <element choice="1" label="State of Loss Location" max_length="40" name="state_of_loss_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New Jersey" sequence="2" value="new jersey"/>
