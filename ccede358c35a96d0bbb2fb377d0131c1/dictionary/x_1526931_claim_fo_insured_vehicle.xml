@@ -2,11 +2,15 @@
     <element db_object_id="9cc3d4b8839652107b9ff7a6feaad3dc" label="Insured Vehicle" max_length="40" name="x_1526931_claim_fo_insured_vehicle" type="collection">
         <element label="Vehicle Make" max_length="40" name="vehicle_make" type="string"/>
         <element label="Insurance Policy" max_length="32" name="insurance_policy" reference="x_1526931_claim_fo_auto_insurance_policy" type="reference"/>
+        <element label="Insured Vehicle" max_length="32" name="insured_vehicle" reference="x_1526931_claim_fo_insured_vehicle" type="reference"/>
         <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
         <element label="Vehicle Registration Number" max_length="40" name="vehicle_registration_number" type="string"/>
         <element label="Vehicle" max_length="40" name="vehicle" type="string"/>
         <index name="index">
             <element name="insurance_policy"/>
+        </index>
+        <index name="index2">
+            <element name="insured_vehicle"/>
         </index>
     </element>
 </database>

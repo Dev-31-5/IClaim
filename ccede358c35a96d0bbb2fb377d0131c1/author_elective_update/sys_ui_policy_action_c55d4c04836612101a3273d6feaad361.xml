@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>license_plate_number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 08:14:02</sys_created_on>
+        <sys_id>c55d4c04836612101a3273d6feaad361</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>license_plate_number</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c55d4c04836612101a3273d6feaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 13:43:42</sys_updated_on>
+        <table>x_1526931_claim_fo_other_vehicle</table>
+        <ui_policy display_value="Hide vehicles in other vehicles">415d4c04836612101a3273d6feaad340</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c55d4c04836612101a3273d6feaad361"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>0c2415371b8a0a1478c7cb7b234bcb46</instance_id>
+        <instance_name>dev270714</instance_name>
+        <name>sys_ui_policy_action_c55d4c04836612101a3273d6feaad361</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>license_plate_number</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 08:14:02</sys_created_on><sys_id>c55d4c04836612101a3273d6feaad361</sys_id><sys_mod_count>2</sys_mod_count><sys_name>license_plate_number</sys_name><sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package><sys_policy/><sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope><sys_update_name>sys_ui_policy_action_c55d4c04836612101a3273d6feaad361</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 13:43:42</sys_updated_on><table>x_1526931_claim_fo_other_vehicle</table><ui_policy display_value="Hide vehicles in other vehicles">415d4c04836612101a3273d6feaad340</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c55d4c04836612101a3273d6feaad361"/></record_update>]]></payload>
+        <payload_hash>-43846043</payload_hash>
+        <record_name>license_plate_number</record_name>
+        <reverted_from/>
+        <source>2742b200c3f2121099057a94e401316c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-26 06:30:32</sys_created_on>
+        <sys_id>3342f200c3f2121099057a94e401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19401a8e1600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-26 06:30:32</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>9942822bda6e9610e210eb7b1a646515</update_guid>
+        <update_guid_history>9942822bda6e9610e210eb7b1a646515:-43846043,f1323ecc49b2121033473d421b9a15e2:0,9942822bda6e9610e210eb7b1a646515:-43846043,6b50981503221210152f34f413b4178c:-1758082597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-26 12:20:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>d3546c2bfdae4bb097e978df039af840</sys_id>
+        <sys_metadata>c55d4c04836612101a3273d6feaad361</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>license_plate_number</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c55d4c04836612101a3273d6feaad361</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c55d4c04836612101a3273d6feaad361">3342f200c3f2121099057a94e401310c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-26 12:20:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
