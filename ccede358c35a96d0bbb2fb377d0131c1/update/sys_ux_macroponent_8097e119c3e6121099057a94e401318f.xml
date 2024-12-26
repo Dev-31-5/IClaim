@@ -233,8 +233,219 @@
                             "value": false
                         },
                         "items": {
-                            "type": "JSON_LITERAL",
-                            "value": "[{\"id\":\"step1\",\"label\":\"Not started\",\"progress\":\"none\"},{\"id\":\"step2\",\"label\":\"Active\",\"progress\":\"partial\"},{\"id\":\"step3\",\"label\":\"In progress\",\"progress\":\"partial\"},{\"id\":\"step4\",\"label\":\"Complete\",\"progress\":\"done\",\"disabled\":true}]"
+                            "container": [
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step1"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Initiate Claim"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step2"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Policy Holder"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step3"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Loss Details"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step4"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Emergency Services"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step5"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Insured Vehicle(s)"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step6"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Other Vehicle(s)"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "done"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step7"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Damaged Properties"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step8"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Wittnesses"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step9"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Pedestrian(s)"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partial"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                },
+                                {
+                                    "container": {
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "step10"
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Review Claim"
+                                            }
+                                        },
+                                        "progress": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "partital"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                }
+                            ],
+                            "type": "LIST_CONTAINER"
                         },
                         "labelPosition": {
                             "type": "JSON_LITERAL",
@@ -250,7 +461,7 @@
                         },
                         "selectedItem": {
                             "type": "JSON_LITERAL",
-                            "value": null
+                            "value": "step7"
                         },
                         "showCompletedCount": {
                             "type": "JSON_LITERAL",
@@ -3174,13 +3385,40 @@
   "message" : "Damaged Properties",
   "comment" : ""
 }, {
+  "message" : "Emergency Services",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Initiate Claim",
+  "comment" : ""
+}, {
+  "message" : "Insured Vehicle(s)",
+  "comment" : ""
+}, {
+  "message" : "Loss Details",
   "comment" : ""
 }, {
   "message" : "Next",
   "comment" : ""
 }, {
+  "message" : "Other Vehicle(s)",
+  "comment" : ""
+}, {
+  "message" : "Pedestrian(s)",
+  "comment" : ""
+}, {
+  "message" : "Policy Holder",
+  "comment" : ""
+}, {
   "message" : "Previous",
+  "comment" : ""
+}, {
+  "message" : "Review Claim",
+  "comment" : ""
+}, {
+  "message" : "Wittnesses",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -3193,14 +3431,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 12:00:41</sys_created_on>
         <sys_id>8097e119c3e6121099057a94e401318f</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Damaged Properties</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_8097e119c3e6121099057a94e401318f</sys_update_name>
-        <sys_updated_by>Durga</sys_updated_by>
-        <sys_updated_on>2024-12-24 04:31:52</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-26 07:07:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8097e119c3e6121099057a94e401318f"/>
 </record_update>
