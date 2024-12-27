@@ -25,11 +25,11 @@
         <element label="Vehicle Passenger 2 First Name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="collision" label="Cause of loss" max_length="40" name="causeofloss" type="string">
             <choice>
+                <element inactive_on_update="false" label="Only personal injury" sequence="4" value="only personal injury"/>
+                <element inactive_on_update="false" label="Collision" sequence="0" value="collision"/>
+                <element inactive_on_update="false" label="Damage due to act of God" sequence="2" value="damage due to act of god"/>
                 <element inactive_on_update="false" label="Glass Breakage" sequence="3" value="glass breakage"/>
                 <element inactive_on_update="false" label="Theft" sequence="1" value="theft"/>
-                <element inactive_on_update="false" label="Only personal injury" sequence="4" value="only personal injury"/>
-                <element inactive_on_update="false" label="Damage due to act of God" sequence="2" value="damage due to act of god"/>
-                <element inactive_on_update="false" label="Collision" sequence="0" value="collision"/>
             </choice>
         </element>
         <element label="Agency Name" max_length="40" name="agency_name" type="string"/>
@@ -79,8 +79,8 @@
         <element attributes="edge_encryption_enabled=true" label="Police report number" max_length="40" name="u_string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="dry" label="What were the road conditions?" max_length="40" name="whatweretheroadconditions" type="string">
             <choice>
-                <element inactive_on_update="false" label="Dry" sequence="0" value="dry"/>
                 <element inactive_on_update="false" label="Danaged" sequence="2" value="danaged"/>
+                <element inactive_on_update="false" label="Dry" sequence="0" value="dry"/>
                 <element inactive_on_update="false" label="Wet" sequence="1" value="wet"/>
             </choice>
         </element>
@@ -106,11 +106,11 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="did you call for emergency services" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Insured Vehicle" max_length="32" name="u_reference_1" reference="x_1526931_claim_fo_insured_vehicle" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="sys_created_by" dependent_on_field="sys_created_by" label="xyz" max_length="32" name="u_reference_1" reference="x_1526931_claim_fo_pedestrian" type="reference" use_dependent_field="true"/>
         <element default="united states" label="In what country did the loss occur?" max_length="40" name="in_what_country_did_the_loss_occur" type="string"/>
         <element label="Vehicle Passenger 3 First Name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
         <element attributes="encode_utf8=false" label="Insurance Policy" max_length="32" name="insurancepolicy" reference="x_1526931_claim_fo_auto_insurance_policy" type="reference"/>
@@ -122,8 +122,8 @@
         <element attributes="edge_encryption_enabled=true" choice="3" default="clear" label="What were the weather conditions?" max_length="40" name="whatweretheweatherconditions" type="string">
             <choice>
                 <element inactive_on_update="false" label="Stormy" sequence="1" value="stormy"/>
-                <element inactive_on_update="false" label="Clear" sequence="0" value="clear"/>
                 <element inactive_on_update="false" label="Rainy" sequence="2" value="rainy"/>
+                <element inactive_on_update="false" label="Clear" sequence="0" value="clear"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Address Line 2" max_length="40" name="addressline2" type="string"/>
