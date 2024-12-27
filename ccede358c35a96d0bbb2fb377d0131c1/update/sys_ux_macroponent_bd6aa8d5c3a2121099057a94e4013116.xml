@@ -804,7 +804,9 @@
                     "items": [
                         {
                             "element_id": "stepper_1",
-                            "styles": {}
+                            "styles": {
+                                "margin-bottom": "var(--now-scalable-space--3xl)"
+                            }
                         }
                     ],
                     "root": null,
@@ -1150,205 +1152,6 @@
                             },
                             {
                                 "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "grid_container_2",
-                                "elementLabel": "Grid Container 2",
-                                "eventMappings": [],
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "d356d14b6e293a3020a244b63d278d8f",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "container_6",
-                                            "elementLabel": "Container 6",
-                                            "eventMappings": [],
-                                            "overrides": {
-                                                "composition": [
-                                                    {
-                                                        "definition": {
-                                                            "id": "d356d14b6e293a3020a244b63d278d8f",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "container_7",
-                                                        "elementLabel": "Container 7",
-                                                        "eventMappings": [],
-                                                        "overrides": {
-                                                            "composition": [],
-                                                            "layout": {
-                                                                "default": {
-                                                                    "children": null,
-                                                                    "items": [],
-                                                                    "root": null,
-                                                                    "rules": null,
-                                                                    "styles": {
-                                                                        "flex-direction": "column"
-                                                                    },
-                                                                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                                                    "type": "flex"
-                                                                },
-                                                                "version": "3.0.0"
-                                                            }
-                                                        },
-                                                        "preset": null,
-                                                        "propertyValues": {
-                                                            "ariaRegionHeadingLevel": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "1"
-                                                            },
-                                                            "ariaRegionName": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": ""
-                                                            },
-                                                            "ariaRole": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": ""
-                                                            },
-                                                            "hideEmptyStateUi": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": true
-                                                            },
-                                                            "includeAriaHeading": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": false
-                                                            },
-                                                            "slotWrapperBehavior": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "fullheight"
-                                                            },
-                                                            "type": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "section"
-                                                            }
-                                                        },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    }
-                                                ],
-                                                "layout": {
-                                                    "default": {
-                                                        "children": null,
-                                                        "items": [
-                                                            {
-                                                                "element_id": "container_7",
-                                                                "styles": {
-                                                                    "width": "100%"
-                                                                }
-                                                            }
-                                                        ],
-                                                        "root": null,
-                                                        "rules": null,
-                                                        "styles": {
-                                                            "flex-direction": "column"
-                                                        },
-                                                        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                                        "type": "flex"
-                                                    },
-                                                    "version": "3.0.0"
-                                                }
-                                            },
-                                            "preset": null,
-                                            "propertyValues": {
-                                                "ariaRegionHeadingLevel": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "1"
-                                                },
-                                                "ariaRegionName": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "ariaRole": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "hideEmptyStateUi": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "includeAriaHeading": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "slotWrapperBehavior": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fullheight"
-                                                },
-                                                "type": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "section"
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "container_6",
-                                                    "styles": {
-                                                        "width": "100%"
-                                                    }
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "display": "grid",
-                                                "flex-direction": "column",
-                                                "grid-auto-columns": "1fr",
-                                                "grid-auto-rows": "1fr",
-                                                "grid-template-columns": "1fr 1fr",
-                                                "grid-template-rows": "1fr 1fr",
-                                                "width": "100%"
-                                            },
-                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "grid"
-                                        },
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "ariaRegionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "ariaRegionName": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "ariaRole": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "hideEmptyStateUi": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "includeAriaHeading": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "slotWrapperBehavior": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "fullheight"
-                                    },
-                                    "type": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "section"
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            },
-                            {
-                                "definition": {
                                     "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                     "type": "MACROPONENT"
                                 },
@@ -1617,7 +1420,9 @@
                                             "items": [
                                                 {
                                                     "element_id": "list___simple_1",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "box-shadow": "var(--now-static-drop-shadow--md)"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -2003,13 +1808,15 @@
                                                 {
                                                     "element_id": "button_2",
                                                     "styles": {
-                                                        "margin-left": "var(--now-scalable-space--3xl)"
+                                                        "margin-left": "var(--now-scalable-space--3xl)",
+                                                        "margin-top": "var(--now-scalable-space--xl)"
                                                     }
                                                 },
                                                 {
                                                     "element_id": "button_3",
                                                     "styles": {
-                                                        "margin-left": "var(--now-scalable-space--3xl)"
+                                                        "margin-left": "var(--now-scalable-space--3xl)",
+                                                        "margin-top": "var(--now-scalable-space--xl)"
                                                     }
                                                 }
                                             ],
@@ -2078,12 +1885,6 @@
                                         "styles": {}
                                     },
                                     {
-                                        "element_id": "grid_container_2",
-                                        "styles": {
-                                            "width": "100%"
-                                        }
-                                    },
-                                    {
                                         "element_id": "rich_text_2",
                                         "styles": {}
                                     },
@@ -2109,7 +1910,10 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
-                                    "flex-direction": "column"
+                                    "flex-direction": "column",
+                                    "margin-left": "var(--now-scalable-space--3xl)",
+                                    "margin-right": "var(--now-scalable-space--3xl)",
+                                    "margin-top": "0"
                                 },
                                 "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                 "type": "flex"
@@ -2236,6 +2040,10 @@
                         {
                             "element_id": "container_3",
                             "styles": {
+                                "border-color": "RGB(var(--now-color--neutral-5))",
+                                "border-radius": "var(--now-static-border-radius--lg)",
+                                "border-style": "dashed",
+                                "border-width": "var(--now-static-space--xxs)",
                                 "width": "100%"
                             }
                         },
@@ -3645,14 +3453,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 07:33:28</sys_created_on>
         <sys_id>bd6aa8d5c3a2121099057a94e4013116</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Witnesses</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_bd6aa8d5c3a2121099057a94e4013116</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-26 07:13:14</sys_updated_on>
+        <sys_updated_on>2024-12-27 07:34:37</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=bd6aa8d5c3a2121099057a94e4013116"/>
 </record_update>
