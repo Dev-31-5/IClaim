@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="299c0859c3b2121099057a94e40131d1" sys_domain="global" table="x_1526931_claim_fo_insured_vehicle" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 15:38:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d9c0859c3b2121099057a94e40131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1526931_claim_fo_insured_vehicle" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="c4e5060d83d212108090f0d6feaad358">299c0859c3b2121099057a94e40131d1</sys_ui_form>
+            <sys_ui_section caption="Insured Vehicle" display_value="Insured Vehicle" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="c4e5060d83d212108090f0d6feaad358">ad9c0859c3b2121099057a94e40131ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 15:38:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 15:38:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>299c0859c3b2121099057a94e40131fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1526931_claim_fo_insured_vehicle" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="c4e5060d83d212108090f0d6feaad358">299c0859c3b2121099057a94e40131d1</sys_ui_form>
+            <sys_ui_section caption="Driver Details" display_value="Driver Details" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="c4e5060d83d212108090f0d6feaad358">e59c0859c3b2121099057a94e40131d0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 15:38:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1526931_claim_fo_insured_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 15:38:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>299c0859c3b2121099057a94e40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1526931_claim_fo_insured_vehicle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_299c0859c3b2121099057a94e40131d1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 15:38:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Insuredvehicle" name="Insuredvehicle">c4e5060d83d212108090f0d6feaad358</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

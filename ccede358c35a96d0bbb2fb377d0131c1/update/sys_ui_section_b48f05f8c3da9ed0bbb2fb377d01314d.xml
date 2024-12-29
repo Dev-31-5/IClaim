@@ -126,6 +126,524 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_this_vehicle_damaged</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:58</sys_created_on>
+            <sys_id>be993b41c372121099057a94e401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>glass_damage</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>be993b41c372121099057a94e401314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_stolen</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>b6993b41c372121099057a94e4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_towed</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>8f993b41c372121099057a94e401315f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>damage_detail</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>c7993b41c372121099057a94e4013168</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_there_a_driver_in_the_vehicle_at_the_time</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>4b993b41c372121099057a94e401317d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_the_driver_policy_holder_of_the_vehicle</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:15:59</sys_created_on>
+            <sys_id>07993b41c372121099057a94e4013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>driver_first_name</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>03993b41c372121099057a94e401318f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>driver_last_name</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>4f993b41c372121099057a94e4013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>driver_phone_number</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>cb993b41c372121099057a94e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>driver_license_number</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>9b993b41c372121099057a94e40131a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_the_driver_injured</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>9b993b41c372121099057a94e40131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>injury_details</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:00</sys_created_on>
+            <sys_id>db993b41c372121099057a94e40131bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_there_any_passengers_in_the_vehicle</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>17993b41c372121099057a94e40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_passengers_were_there_in_the_vehicle</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>53993b41c372121099057a94e40131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger_first_name</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>5f993b41c372121099057a94e40131fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger_last_name</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>6b997b41c372121099057a94e4013111</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger2_first_name</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>ef997b41c372121099057a94e401311a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger2_last_name</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:01</sys_created_on>
+            <sys_id>a7997b41c372121099057a94e4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger3_first_name</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>af997b41c372121099057a94e401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger3_last_name</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>e7997b41c372121099057a94e4013137</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger4_first_name_string</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>63997b41c372121099057a94e4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger4_last_name</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>3f997b41c372121099057a94e401314a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger5_first_name</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>b7997b41c372121099057a94e401316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passenger5_last_name</element>
+            <position>33</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:02</sys_created_on>
+            <sys_id>f3997b41c372121099057a94e4013177</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>front</element>
+            <position>34</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>3b997b41c372121099057a94e401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rear</element>
+            <position>35</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>f7997b41c372121099057a94e4013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>front_driver_side_quarter_panel</element>
+            <position>36</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>f7997b41c372121099057a94e40131a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rear_driver_side_quarter_panel</element>
+            <position>37</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>08a97b41c372121099057a94e40131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>front_passenger_quarter_panel</element>
+            <position>38</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>88a97b41c372121099057a94e40131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rear_passenger_quarter_panel</element>
+            <position>39</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:03</sys_created_on>
+            <sys_id>4ca97b41c372121099057a94e40131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>front_driver_side_door</element>
+            <position>40</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>40a97b41c372121099057a94e40131ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rear_driver_side_door</element>
+            <position>41</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>84a97b41c372121099057a94e40131d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>front_passenger_door</element>
+            <position>42</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>0ca97b41c372121099057a94e40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rear_passenger_door</element>
+            <position>43</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>c0a97b41c372121099057a94e40131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roof_damage</element>
+            <position>44</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>d8a97b41c372121099057a94e40131f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>not_drivable</element>
+            <position>45</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 14:16:04</sys_created_on>
+            <sys_id>14a97b41c372121099057a94e40131fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1526931_claim_fo_insured_vehicle" sys_domain="global" view="Default view">b48f05f8c3da9ed0bbb2fb377d01314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 14:16:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
