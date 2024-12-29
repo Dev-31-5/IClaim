@@ -1,11 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9cc3d4b8839652107b9ff7a6feaad3dc" label="Insured Vehicle" max_length="40" name="x_1526931_claim_fo_insured_vehicle" type="collection">
+        <element label="Passenger4 Last Name" max_length="40" name="passenger4_last_name" type="string"/>
         <element label="Vehicle Make" max_length="40" name="vehicle_make" type="string"/>
         <element label="Insurance Policy" max_length="32" name="insurance_policy" reference="x_1526931_claim_fo_auto_insurance_policy" type="reference"/>
         <element label="Insured Vehicle" max_length="32" name="insured_vehicle" reference="x_1526931_claim_fo_insured_vehicle" type="reference"/>
+        <element label="Passenger5 Last Name" max_length="40" name="passenger5_last_name" type="string"/>
+        <element choice="1" label="Vehicle Towed" max_length="40" name="vehicle_towed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes"/>
+                <element inactive_on_update="false" label="Unknown"/>
+                <element inactive_on_update="false" label="No"/>
+            </choice>
+        </element>
+        <element label="Not drivable" max_length="40" name="not_drivable" type="boolean"/>
+        <element label="Front" max_length="40" name="front" type="boolean"/>
+        <element label="Rear driver side quarter panel" max_length="40" name="rear_driver_side_quarter_panel" type="boolean"/>
+        <element label="Passenger First Name" max_length="40" name="passenger_first_name" type="string"/>
+        <element label="Passenger4 First Name" max_length="40" name="passenger4_first_name_string" type="string"/>
         <element label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
+        <element label="Rear" max_length="40" name="rear" type="boolean"/>
+        <element label="Rear Passenger door" max_length="40" name="rear_passenger_door" type="boolean"/>
+        <element label="Driver Last Name" max_length="40" name="driver_last_name" type="string"/>
+        <element label="Rear passenger quarter panel" max_length="40" name="rear_passenger_quarter_panel" type="boolean"/>
+        <element label="Driver License number" max_length="40" name="driver_license_number" type="string"/>
+        <element label="Damage Detail" max_length="40" name="damage_detail" type="string"/>
+        <element label="Driver First Name" max_length="40" name="driver_first_name" type="string"/>
+        <element choice="1" label="Was there a driver in the vehicle at the time?" max_length="40" name="was_there_a_driver_in_the_vehicle_at_the_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
+            </choice>
+        </element>
+        <element label="Was there any passengers in the vehicle?" max_length="40" name="was_there_any_passengers_in_the_vehicle" type="boolean"/>
+        <element label="Was the driver injured?" max_length="40" name="was_the_driver_injured" type="boolean"/>
+        <element choice="1" label="How many passengers were there in the vehicle?" max_length="40" name="how_many_passengers_were_there_in_the_vehicle" type="choice">
+            <choice/>
+        </element>
         <element label="Vehicle Registration Number" max_length="40" name="vehicle_registration_number" type="string"/>
+        <element label="Rear driver side door" max_length="40" name="rear_driver_side_door" type="boolean"/>
+        <element choice="1" label="Glass Damage" max_length="40" name="glass_damage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
+            </choice>
+        </element>
+        <element label="Passenger3 First Name" max_length="40" name="passenger3_first_name" type="string"/>
+        <element label="Front passenger quarter panel" max_length="40" name="front_passenger_quarter_panel" type="boolean"/>
+        <element label="Passenger5 First Name" max_length="40" name="passenger5_first_name" type="string"/>
+        <element label="Front Passenger door" max_length="40" name="front_passenger_door" type="boolean"/>
+        <element label="Roof damage" max_length="40" name="roof_damage" type="boolean"/>
+        <element label="Passenger Last Name" max_length="40" name="passenger_last_name" type="string"/>
         <element label="Vehicle" max_length="40" name="vehicle" type="string"/>
+        <element label="Front driver side quarter panel" max_length="40" name="front_driver_side_quarter_panel" type="boolean"/>
+        <element label="Is the Driver Policy Holder of the vehicle?" max_length="40" name="is_the_driver_policy_holder_of_the_vehicle" type="boolean"/>
+        <element label="Passenger3 Last Name" max_length="40" name="passenger3_last_name" type="string"/>
+        <element label="Passenger2 First Name" max_length="40" name="passenger2_first_name" type="string"/>
+        <element choice="1" label="Vehicle Stolen" max_length="40" name="vehicle_stolen" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
+            </choice>
+        </element>
+        <element label="Front driver side door" max_length="40" name="front_driver_side_door" type="boolean"/>
+        <element choice="1" label="Was this vehicle damaged" max_length="40" name="was_this_vehicle_damaged" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
+            </choice>
+        </element>
+        <element label="Injury Details" max_length="40" name="injury_details" type="string"/>
+        <element label="Passenger2 Last Name" max_length="40" name="passenger2_last_name" type="string"/>
+        <element label="Driver Phone number" max_length="40" name="driver_phone_number" type="string"/>
         <index name="index">
             <element name="insurance_policy"/>
         </index>
