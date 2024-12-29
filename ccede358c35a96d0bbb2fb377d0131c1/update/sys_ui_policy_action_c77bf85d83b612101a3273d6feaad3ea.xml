@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>passenger_last_name</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-29 19:03:55</sys_created_on>
+        <sys_id>c77bf85d83b612101a3273d6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>passenger_last_name</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c77bf85d83b612101a3273d6feaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 19:03:55</sys_updated_on>
+        <table>x_1526931_claim_fo_insured_vehicle</table>
+        <ui_policy display_value="show 1 vehicle passenger when number of passengers is 1">5e4bb45d83b612101a3273d6feaad34e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c77bf85d83b612101a3273d6feaad3ea"/>
+</record_update>

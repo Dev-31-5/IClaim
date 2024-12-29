@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_reference_1.vehicle_model</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 10:53:49</sys_created_on>
+        <sys_id>0cc1509fc322561099057a94e40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reference_1.vehicle_model</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0cc1509fc322561099057a94e40131e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 10:53:49</sys_updated_on>
+        <table>x_1526931_claim_fo_auto_claim</table>
+        <ui_policy display_value="Hide Dot Walked Fields for Insured Vehicle">3de0dc1fc322561099057a94e40131a1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=0cc1509fc322561099057a94e40131e0"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</application>
+        <file_path/>
+        <instance_id>c77211131be14e5865324089bd4bcbdb</instance_id>
+        <instance_name>dev259900</instance_name>
+        <name>sys_ui_policy_action_0cc1509fc322561099057a94e40131e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_reference_1.vehicle_model</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 10:53:49</sys_created_on>
+        <sys_id>0cc1509fc322561099057a94e40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reference_1.vehicle_model</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0cc1509fc322561099057a94e40131e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 10:53:49</sys_updated_on>
+        <table>x_1526931_claim_fo_auto_claim</table>
+        <ui_policy display_value="Hide Dot Walked Fields for Insured Vehicle">3de0dc1fc322561099057a94e40131a1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=0cc1509fc322561099057a94e40131e0"/>
+</record_update>]]></payload>
+        <payload_hash>581549299</payload_hash>
+        <record_name>u_reference_1.vehicle_model</record_name>
+        <reverted_from/>
+        <source>efcc2f81833212101a3273d6feaad394</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-29 13:20:11</sys_created_on>
+        <sys_id>f5dcaf81833212101a3273d6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194129301ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 13:20:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b5dcaf81a03212105043f62d711a26c8</update_guid>
+        <update_guid_history>b5dcaf81a03212105043f62d711a26c8:581549299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-29 18:12:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>17554bf1f4af4d9096143c7d6745cc40</sys_id>
+        <sys_metadata>0cc1509fc322561099057a94e40131e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reference_1.vehicle_model</sys_name>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_parent display_value="Hide Dot Walked Fields for Insured Vehicle">3de0dc1fc322561099057a94e40131a1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_scope_delete display_value="">2a87bb17083e479695ac7943eece43a4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_0cc1509fc322561099057a94e40131e0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_0cc1509fc322561099057a94e40131e0">f5dcaf81833212101a3273d6feaad3c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 18:12:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
