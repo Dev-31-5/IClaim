@@ -1418,7 +1418,7 @@
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "&lt;p&gt;&lt;span style=\"font-size: 12pt;\"&gt;&lt;img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-nVmFXVqDLFA-Ofhb6391jRbMUqQR1KWIuPTTv5r77FyuRj2o\" width=\"51\" height=\"43\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 12pt;\"&gt;Pedestrian(s)&lt;/span&gt;&lt;/p&gt;"
+                                                        "message": "&lt;p&gt;&lt;span style=\"font-size: 12pt;\"&gt;&lt;img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-nVmFXVqDLFA-Ofhb6391jRbMUqQR1KWIuPTTv5r77FyuRj2o\" width=\"51\" height=\"43\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt; font-family: 'times new roman', times;\"&gt;Pedestrian(s)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
                                                     }
                                                 }
                                             },
@@ -1632,7 +1632,9 @@
                                                 {
                                                     "element_id": "button_4",
                                                     "styles": {
-                                                        "align-self": "center"
+                                                        "align-self": "center",
+                                                        "margin-bottom": "var(--now-scalable-space--lg)",
+                                                        "margin-top": "var(--now-scalable-space--lg)"
                                                     }
                                                 }
                                             ],
@@ -2473,7 +2475,9 @@
                                             "border-style": "dotted",
                                             "border-width": "var(--now-static-space--xxs)",
                                             "box-shadow": "var(--now-static-drop-shadow--md)",
-                                            "margin-bottom": "5%"
+                                            "margin-bottom": "var(--now-scalable-space--xl)",
+                                            "margin-left": "0",
+                                            "margin-right": "var(--now-scalable-space--lg)"
                                         }
                                     },
                                     {
@@ -2486,7 +2490,9 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
-                                    "flex-direction": "column"
+                                    "flex-direction": "column",
+                                    "padding-bottom": "var(--now-scalable-space--xxl)",
+                                    "padding-top": "var(--now-scalable-space--xxl)"
                                 },
                                 "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                 "type": "flex"
@@ -2613,6 +2619,9 @@
                         {
                             "element_id": "container_4",
                             "styles": {
+                                "border-color": "RGB(var(--now-color--neutral-5))",
+                                "border-style": "solid",
+                                "border-width": "1px",
                                 "width": "100%"
                             }
                         },
@@ -3372,7 +3381,7 @@
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 14pt; line-height: 107%; font-family: 'Times New Roman', serif; color: rgb(53, 152, 219); background-color: rgb(194, 224, 244);\"&gt;refresh the below table after adding pedestrian&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p&gt;&lt;span style=\"font-size: 12pt;\"&gt;&lt;img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-nVmFXVqDLFA-Ofhb6391jRbMUqQR1KWIuPTTv5r77FyuRj2o\" width=\"51\" height=\"43\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 12pt;\"&gt;Pedestrian(s)&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 12pt;\"&gt;&lt;img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-nVmFXVqDLFA-Ofhb6391jRbMUqQR1KWIuPTTv5r77FyuRj2o\" width=\"51\" height=\"43\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt; font-family: 'times new roman', times;\"&gt;Pedestrian(s)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Add pedestrian",
@@ -3436,14 +3445,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 06:42:19</sys_created_on>
         <sys_id>acbe1c15c3ea9610bbb2fb377d013123</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>pedestrian</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_acbe1c15c3ea9610bbb2fb377d013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-26 07:17:42</sys_updated_on>
+        <sys_updated_on>2024-12-29 14:31:30</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=acbe1c15c3ea9610bbb2fb377d013123"/>
 </record_update>

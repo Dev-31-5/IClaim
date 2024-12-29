@@ -649,7 +649,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "&lt;p&gt;&lt;strong&gt;Other Vehicle(s)&lt;/strong&gt;&lt;/p&gt;"
+                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-family: 'times new roman', times; font-size: 18pt;\"&gt;&lt;img src=\"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvH5ce1Mg1ld2jkEdAsFLNdoEd6Ag7F2iHLs_1xqvzkOQbZsUx\" width=\"49\" height=\"49\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-family: 'times new roman', times; font-size: 18pt;\"&gt;&lt;strong&gt;Other Vehicle(s)&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                         }
                                     }
                                 },
@@ -846,7 +846,9 @@
                                                         "root": null,
                                                         "rules": null,
                                                         "styles": {
-                                                            "flex-direction": "column"
+                                                            "flex-direction": "column",
+                                                            "margin-bottom": "var(--now-scalable-space--lg)",
+                                                            "margin-top": "0"
                                                         },
                                                         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                                         "type": "flex"
@@ -1076,7 +1078,7 @@
                                                 },
                                                 "hideViewAll": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": true
+                                                    "value": false
                                                 },
                                                 "highlightContent": {
                                                     "type": "JSON_LITERAL",
@@ -1095,7 +1097,7 @@
                                                 },
                                                 "limit": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "value": 2
                                                 },
                                                 "listTitle": {
                                                     "type": "TRANSLATION_LITERAL",
@@ -1111,7 +1113,7 @@
                                                 },
                                                 "maxColumns": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": 1
+                                                    "value": 2
                                                 },
                                                 "nrlLandmark": {
                                                     "type": "JSON_LITERAL",
@@ -1152,13 +1154,23 @@
                                             "items": [
                                                 {
                                                     "element_id": "list___simple_1",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "box-shadow": "var(--now-static-drop-shadow--md)",
+                                                        "margin-bottom": "var(--now-scalable-space--xl)",
+                                                        "margin-left": "0",
+                                                        "margin-right": "0",
+                                                        "padding-left": "0",
+                                                        "padding-right": "0",
+                                                        "width": "100%"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
-                                                "flex-direction": "column"
+                                                "flex-direction": "column",
+                                                "margin-left": "0",
+                                                "margin-right": "0"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                             "type": "flex"
@@ -1615,7 +1627,7 @@
                                     {
                                         "element_id": "form_default",
                                         "styles": {
-                                            "padding-right": "5%"
+                                            "padding-right": "var(--now-scalable-space--xxl)"
                                         }
                                     },
                                     {
@@ -1644,7 +1656,9 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
-                                    "flex-direction": "column"
+                                    "flex-direction": "column",
+                                    "padding-bottom": "var(--now-scalable-space--xxl)",
+                                    "padding-top": "var(--now-scalable-space--xxl)"
                                 },
                                 "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                 "type": "flex"
@@ -1775,6 +1789,9 @@
                         {
                             "element_id": "container_3",
                             "styles": {
+                                "border-color": "RGB(var(--now-color--neutral-5))",
+                                "border-style": "solid",
+                                "border-width": "1px",
                                 "width": "100%"
                             }
                         },
@@ -2551,7 +2568,7 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "&lt;p&gt;&lt;strong&gt;Other Vehicle(s)&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-family: 'times new roman', times; font-size: 18pt;\"&gt;&lt;img src=\"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvH5ce1Mg1ld2jkEdAsFLNdoEd6Ag7F2iHLs_1xqvzkOQbZsUx\" width=\"49\" height=\"49\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-family: 'times new roman', times; font-size: 18pt;\"&gt;&lt;strong&gt;Other Vehicle(s)&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Add Vehicle",
@@ -2647,14 +2664,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 03:53:58</sys_created_on>
         <sys_id>67c11f3b831212101a3273d6feaad3ac</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_67c11f3b831212101a3273d6feaad3ac</sys_update_name>
-        <sys_updated_by>Durga</sys_updated_by>
-        <sys_updated_on>2024-12-27 07:16:47</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 16:08:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=67c11f3b831212101a3273d6feaad3ac"/>
 </record_update>
