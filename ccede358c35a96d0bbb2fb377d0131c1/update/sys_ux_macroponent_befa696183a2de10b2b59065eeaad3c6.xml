@@ -2220,7 +2220,7 @@
                     "rules": null,
                     "styles": {
                         "box-sizing": "border-box",
-                        "column-gap": "var(--now-scalable-space--xl)",
+                        "column-gap": "0",
                         "grid-template-columns": "24.996665921972223fr 49.99558629302087fr 24.9977477850069fr",
                         "grid-template-rows": "1fr",
                         "height": "1200px",
@@ -2239,7 +2239,7 @@
                             "rules": null,
                             "styles": {
                                 "box-sizing": "border-box",
-                                "column-gap": "var(--now-scalable-space--xl)",
+                                "column-gap": "0",
                                 "grid-template-columns": "1fr",
                                 "grid-template-rows": "1fr",
                                 "height": "fit-content",
@@ -2313,7 +2313,7 @@
                             },
                             "internal": {
                                 "box-sizing": "border-box",
-                                "column-gap": "var(--now-scalable-space--xl)",
+                                "column-gap": "0",
                                 "grid-template-rows": "1fr",
                                 "height": "1200px",
                                 "margin-top": "var(--now-scalable-space--3xl)",
@@ -3972,14 +3972,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:54:06</sys_created_on>
         <sys_id>befa696183a2de10b2b59065eeaad3c6</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Insured vehicle(s)</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_befa696183a2de10b2b59065eeaad3c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-29 16:49:14</sys_updated_on>
+        <sys_updated_on>2024-12-30 19:17:23</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=befa696183a2de10b2b59065eeaad3c6"/>
 </record_update>
