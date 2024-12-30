@@ -20,17 +20,17 @@
         <element label="Vehicle Registration Number" max_length="40" name="vehicle_registration_number" type="string"/>
         <element choice="1" label="Was there a driver in the vehicle at the time?" max_length="40" name="was_there_a_driver_in_the_vehicle_at_the_time" type="choice">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="true"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="false"/>
+                <element inactive_on_update="false" label="Unknown" sequence="3" value="false"/>
             </choice>
         </element>
         <element label="Front driver side door" max_length="40" name="front_driver_side_door" type="boolean"/>
         <element choice="1" label="Glass Damage" max_length="40" name="glass_damage" type="choice">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="true"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="false"/>
+                <element inactive_on_update="false" label="Unknown" sequence="3" value="false"/>
             </choice>
         </element>
         <element label="Passenger3 Last Name" max_length="40" name="passenger3_last_name" type="string"/>
@@ -38,9 +38,9 @@
         <element label="Rear driver side quarter panel" max_length="40" name="rear_driver_side_quarter_panel" type="boolean"/>
         <element choice="1" label="Vehicle Stolen" max_length="40" name="vehicle_stolen" type="choice">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive="true" inactive_on_update="true" label="No" sequence="0"/>
-                <element inactive_on_update="false" label="No" sequence="0"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="false"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="true"/>
+                <element inactive_on_update="false" label="Unknown" sequence="3" value="false"/>
             </choice>
         </element>
         <element label="Not drivable" max_length="40" name="not_drivable" type="boolean"/>
@@ -53,7 +53,13 @@
         <element label="Front driver side quarter panel" max_length="40" name="front_driver_side_quarter_panel" type="boolean"/>
         <element label="Driver First Name" max_length="40" name="driver_first_name" type="string"/>
         <element choice="1" label="How many passengers were there in the vehicle?" max_length="40" name="how_many_passengers_were_there_in_the_vehicle" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+            </choice>
         </element>
         <element label="Passenger2 First Name" max_length="40" name="passenger2_first_name" type="string"/>
         <element label="Passenger4 Last Name" max_length="40" name="passenger4_last_name" type="string"/>
@@ -68,7 +74,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Was this vehicle damaged?" max_length="40" name="was_this_vehicle_damaged" type="choice">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="Yes" sequence="0" value="true"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="true"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="false"/>
                 <element inactive_on_update="false" label="Unknown" sequence="3" value="false"/>
             </choice>

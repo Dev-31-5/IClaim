@@ -20,19 +20,19 @@
             <element>vehicle_stolen</element>
             <hint/>
             <inactive>false</inactive>
-            <label>No</label>
+            <label>Yes</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-29 15:18:12</sys_created_on>
+            <sys_created_on>2024-12-29 15:18:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:38:55</sys_updated_on>
-            <value/>
+            <sys_updated_on>2024-12-29 19:31:21</sys_updated_on>
+            <value>true</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -42,35 +42,35 @@
             <label>No</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
-            <sequence>0</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-12-29 15:18:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:43:48</sys_updated_on>
-            <value/>
+            <sys_updated_on>2024-12-29 19:31:14</sys_updated_on>
+            <value>false</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>vehicle_stolen</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>No</label>
+            <inactive>false</inactive>
+            <label>Unknown</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
-            <sequence>0</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-29 15:18:20</sys_created_on>
+            <sys_created_on>2024-12-29 15:18:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:43:48</sys_updated_on>
-            <value/>
+            <sys_updated_on>2024-12-29 19:31:39</sys_updated_on>
+            <value>false</value>
         </sys_choice>
     </sys_choice>
 </record_update>

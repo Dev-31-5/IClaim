@@ -2,27 +2,27 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>u_reference_2</field>
+        <field>was_there_any_other_passengers_in_other_vehicle</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-23 10:54:20</sys_created_on>
-        <sys_id>2cd1d09fc322561099057a94e4013177</sys_id>
+        <sys_created_on>2024-12-29 18:47:46</sys_created_on>
+        <sys_id>25c7385983b612101a3273d6feaad380</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>u_reference_2</sys_name>
+        <sys_name>was_there_any_other_passengers_in_other_vehicle</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-        <sys_update_name>sys_ui_policy_action_2cd1d09fc322561099057a94e4013177</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_25c7385983b612101a3273d6feaad380</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-23 10:54:20</sys_updated_on>
-        <table>x_1526931_claim_fo_auto_claim</table>
-        <ui_policy display_value="Hide Dot Walked Fields for Insured Vehicle">3de0dc1fc322561099057a94e40131a1</ui_policy>
+        <sys_updated_on>2024-12-29 18:47:46</sys_updated_on>
+        <table>x_1526931_claim_fo_other_vehicle</table>
+        <ui_policy display_value="Hide vehicles in other vehicles">b886f8d583b612101a3273d6feaad36e</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>false</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=2cd1d09fc322561099057a94e4013177"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=25c7385983b612101a3273d6feaad380"/>
 </record_update>

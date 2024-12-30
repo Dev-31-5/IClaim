@@ -19,7 +19,7 @@
             <dependent_value/>
             <element>was_this_vehicle_damaged</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Yes</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
@@ -29,9 +29,9 @@
             <sys_created_on>2024-12-29 15:16:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 17:33:32</sys_updated_on>
+            <sys_updated_on>2024-12-29 18:33:21</sys_updated_on>
             <value>true</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

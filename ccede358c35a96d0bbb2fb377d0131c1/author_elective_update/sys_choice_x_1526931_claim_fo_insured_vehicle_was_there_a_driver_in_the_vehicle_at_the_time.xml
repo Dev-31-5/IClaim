@@ -20,7 +20,7 @@
             <element>was_there_a_driver_in_the_vehicle_at_the_time</element>
             <hint/>
             <inactive>false</inactive>
-            <label>No</label>
+            <label>Yes</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
             <sequence>0</sequence>
@@ -29,10 +29,10 @@
             <sys_created_on>2024-12-29 15:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:40:38</sys_updated_on>
-            <value/>
+            <sys_updated_on>2024-12-29 19:43:15</sys_updated_on>
+            <value>true</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -42,35 +42,35 @@
             <label>No</label>
             <language>en</language>
             <name>x_1526931_claim_fo_insured_vehicle</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-29 15:19:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:43:48</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>was_there_a_driver_in_the_vehicle_at_the_time</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>No</label>
-            <language>en</language>
-            <name>x_1526931_claim_fo_insured_vehicle</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-12-29 15:19:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-29 15:43:48</sys_updated_on>
-            <value/>
+            <sys_updated_on>2024-12-29 19:43:27</sys_updated_on>
+            <value>false</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>was_there_a_driver_in_the_vehicle_at_the_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_1526931_claim_fo_insured_vehicle</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-29 15:19:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-29 19:44:10</sys_updated_on>
+            <value>false</value>
         </sys_choice>
     </sys_choice>
 </record_update>
