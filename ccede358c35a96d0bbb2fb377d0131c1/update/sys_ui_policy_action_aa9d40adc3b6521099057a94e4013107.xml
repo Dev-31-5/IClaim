@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
-        <cleared>true</cleared>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>was_there_any_other_passengers_in_other_vehicle</field>
+        <field>passenger_first_name</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-29 15:31:28</sys_created_on>
-        <sys_id>0eda84d983b212101a3273d6feaad3cc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>was_there_any_other_passengers_in_other_vehicle</sys_name>
+        <sys_created_on>2024-12-30 10:22:07</sys_created_on>
+        <sys_id>aa9d40adc3b6521099057a94e4013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>passenger_first_name</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
-        <sys_update_name>sys_ui_policy_action_0eda84d983b212101a3273d6feaad3cc</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_aa9d40adc3b6521099057a94e4013107</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-30 09:44:19</sys_updated_on>
-        <table>x_1526931_claim_fo_other_vehicle</table>
-        <ui_policy display_value="Clear Vehicle Values">4759805983b212101a3273d6feaad379</ui_policy>
+        <sys_updated_on>2024-12-30 10:22:07</sys_updated_on>
+        <table>x_1526931_claim_fo_insured_vehicle</table>
+        <ui_policy display_value="When count of passengers is empty Version 2">29dc042dc3b6521099057a94e40131d7</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <visible>ignore</visible>
+        <visible>false</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=0eda84d983b212101a3273d6feaad3cc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa9d40adc3b6521099057a94e4013107"/>
 </record_update>
