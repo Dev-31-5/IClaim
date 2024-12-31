@@ -2009,7 +2009,7 @@
                                 "rules": null,
                                 "styles": {
                                     "box-sizing": "border-box",
-                                    "grid-template-columns": "33.33fr 33.33fr 33.33fr",
+                                    "grid-template-columns": "24.997054484531887fr 49.99542095099423fr 24.997524564473878fr",
                                     "grid-template-rows": "1fr",
                                     "width": "auto"
                                 },
@@ -2076,17 +2076,17 @@
                                         {
                                             "columnNumber": 1,
                                             "unit": "%",
-                                            "width": 33.33
+                                            "width": 24.997054484531887
                                         },
                                         {
                                             "columnNumber": 2,
                                             "unit": "%",
-                                            "width": 33.33
+                                            "width": 49.99542095099423
                                         },
                                         {
                                             "columnNumber": 3,
                                             "unit": "%",
-                                            "width": 33.33
+                                            "width": 24.997524564473878
                                         }
                                     ],
                                     "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
@@ -2917,14 +2917,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:40:28</sys_created_on>
         <sys_id>43d7e12d8362de10b2b59065eeaad323</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Emergency Services</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_43d7e12d8362de10b2b59065eeaad323</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-29 13:44:46</sys_updated_on>
+        <sys_updated_on>2024-12-30 19:16:44</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=43d7e12d8362de10b2b59065eeaad323"/>
 </record_update>
