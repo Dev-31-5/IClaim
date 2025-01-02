@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1526931_claim_fo_auto_claim</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Lists From Portal</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+    if (current.passengerfirstname.changes()) {
+
+        var passenger = new GlideRecord('x_1526931_claim_fo_passenger');
+        passenger.initialize();
+        passenger.claim = current.sys_id;
+        passenger.first_name = current.passengerfirstname;
+        passenger.last_name = current.passengerlastname;
+        passenger.mobile_phone = current.phonenumber;
+        passenger.passenger_2_first_name = current.passenger_2_first_name;
+        passenger.passenger_2_last_name = current.passenger_2_last_name;
+        passenger.passenger_3_first_name = current.passenger_3_first_name;
+        passenger.passenger_2_last_name = current.passenger_3_last_name;
+        passenger.passenger_4_first_name = current.passenger_4_first_name;
+        passenger.passenger_2_last_name = current.passenger_4_last_name;
+        passenger.passenger_5_first_name = current.passenger_5_first_name;
+        passenger.passenger_2_last_name = current.passenger_5_last_name;
+        passenger.vehicle_of_passenger = current.vehicle_of_passenger;
+        var passengersysId = passenger.insert();
+        current.passengers = current.passengers + ',' + passengersysId;
+    }
+
+    ///below script updates vehicle lists
+
+    if (current.model.changes()) {
+
+        var vehicle = new GlideRecord('x_1526931_claim_fo_other_vehicle');
+        vehicle.initialize();
+        vehicle.claim_number = current.sys_id;
+        vehicle.model = current.model;
+        vehicle.make = current.make;
+        vehicle.model_year = current.model_year;
+        vehicle.color = current.color;
+        vehicle.license_plate_number = current.license_plate_number;
+        vehicle.vin = current.vin;
+        vehicle.describe_damage_details = current.describe_damage_details;
+        vehicle.was_there_any_passengers_in_other_vehicle = current.was_there_any_passengers_in_other_vehicle;
+        vehicle.number_of_passengers = current.number_of_passengers;
+        vehicle.vehicle_passenger_1_first_name = current.vehicle_passenger_1_first_name;
+        vehicle.vehicle_passenger_1_last_name = current.vehicle_passenger_1_last_name;
+        vehicle.vehicle_passenger_2_first_name = current.vehicle_passenger_2_first_name;
+        vehicle.vehicle_passenger_2_last_name = current.vehicle_passenger_2_last_name;
+        vehicle.vehicle_passenger_3_first_name = current.vehicle_passenger_3_first_name;
+        vehicle.vehicle_passenger_3_last_name = current.vehicle_passenger_3_last_name;
+        vehicle.vehicle_passenger_4_first_name = current.vehicle_passenger_4_first_name;
+        vehicle.vehicle_passenger_4_last_name = current.vehicle_passenger_4_last_name;
+        vehicle.vehicle_passenger_5_first_name = current.vehicle_passenger_5_first_name;
+        vehicle.vehicle_passenger_5_last_name = current.vehicle_passenger_5_last_name;
+        vehicle.passengers = current.vehicle_passenger_1_first_name + " " + current.vehicle_passenger_2_first_name + " " + current.vehicle_passenger_3_first_name;
+        vehicle.display_name = current.vin;
+        vehicle.claimsysid = current.sys_id;
+        var vehiclesysId = vehicle.insert();
+        current.vehicles = current.vehicles + ',' + vehiclesysId;
+    }
+
+    if (current.property_name.changes()) {
+
+        var property = new GlideRecord('x_1526931_claim_fo_damaged_property');
+        property.initialize();
+        property.claim = current.sys_id;
+        property.property_name = current.property_name;
+        property.property_owner_first_name = current.property_owner_first_name;
+        property.property_owner_last_name = current.property_owner_last_name;
+        property.property_type = current.property_type;
+        property.property_owner_contact = current.property_owner_contact;
+        property.property_address_line1 = current.property_address_line1;
+        property.property_address_line2 = current.property_address_line2;
+        var propertysysId = property.insert();
+        current.properties = current.properties + ',' + propertysysId;
+    }
+
+    if (current.witness_first_name.changes()) {
+
+        var witness = new GlideRecord('x_1526931_claim_fo_claim_witness');
+        witness.initialize();
+        witness.claim = current.sys_id;
+        witness.first_name = current.witness_first_name;
+        witness.last_name = current.witness_last_name;
+        witness.mobile_phone = current.witness_contact_number;
+        witness.address_line1 = current.witness_address_line1;
+        witness.address_line2 = current.witness_address_line2;
+        witness.display_name = current.witness_first_name + ' ' + current.witness_last_name;
+
+        var witnesssysId = witness.insert();
+        current.witnesses = current.witnesses + ',' + witnesssysId;
+    }
+    if (current.pedestrian_first_name.changes()) {
+
+        var pedestrian = new GlideRecord('x_1526931_claim_fo_pedestrian');
+        pedestrian.initialize();
+        pedestrian.claim = current.sys_id;
+        pedestrian.first_name = current.pedestrian_first_name;
+        pedestrian.last_name = current.pedestrian_last_name;
+        pedestrian.mobile_phone = current.pedestrian_contact_number;
+        pedestrian.address_line1 = current.pedestrian_address_line1;
+        pedestrian.address_line2 = current.pedestrian_address_line2;
+        pedestrian.display_name = current.pedestrian_first_name + ' ' +  current.pedestrian_last_name;
+
+        var pedestriansysId = pedestrian.insert();
+        current.pedestrians = current.pedestrians + ',' + pedestriansysId;
+    }
+
+
+    current.update();
+    current.setWorkflow(false);
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-02 09:49:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f932ef5ac3f25210bbb2fb377d013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Lists From Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
+        <sys_update_name>sys_script_f932ef5ac3f25210bbb2fb377d013166</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 09:49:19</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f932ef5ac3f25210bbb2fb377d013166"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f932ef5ac3f25210bbb2fb377d013166</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-02 09:49:19</sys_created_on>
+        <sys_id>b7e22b1ec3f25210bbb2fb377d013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 09:49:19</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
