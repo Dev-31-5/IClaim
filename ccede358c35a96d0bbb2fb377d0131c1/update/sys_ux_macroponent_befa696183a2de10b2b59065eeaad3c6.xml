@@ -1393,6 +1393,373 @@
                                                         "propertyValues": {},
                                                         "slot": null,
                                                         "styles": null
+                                                    },
+                                                    {
+                                                        "definition": {
+                                                            "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "container_4",
+                                                        "elementLabel": "Container 4",
+                                                        "eventMappings": [],
+                                                        "overrides": {
+                                                            "composition": [
+                                                                {
+                                                                    "definition": {
+                                                                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                                        "type": "MACROPONENT"
+                                                                    },
+                                                                    "elementId": "button_1",
+                                                                    "elementLabel": "Button 1",
+                                                                    "eventMappings": [
+                                                                        {
+                                                                            "eventMappingId": "cmfffnembhhaaaahhhhddjiiffibbpbbcadk",
+                                                                            "isConfiguration": false,
+                                                                            "offRowStorageId": null,
+                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                            "sourceEventCorrelationId": null,
+                                                                            "sourceEventDefinition": {
+                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                "id": null,
+                                                                                "type": "UXEVENT"
+                                                                            },
+                                                                            "sourceEventSysId": null,
+                                                                            "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": {
+                                                                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_befa696183a2de10b2b59065eeaad3c6",
+                                                                                        "payload": {
+                                                                                            "container": {
+                                                                                                "external": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "fields": {
+                                                                                                    "container": {
+                                                                                                        "sysId": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "sysId"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        },
+                                                                                                        "table": {
+                                                                                                            "type": "JSON_LITERAL",
+                                                                                                            "value": "x_1526931_claim_fo_auto_claim"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "type": "MAP_CONTAINER"
+                                                                                                },
+                                                                                                "multiInstField": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "navigationOptions": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "params": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "passiveNavigation": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "redirect": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "route": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": "emergency-details"
+                                                                                                },
+                                                                                                "targetRoute": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "title": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                }
+                                                                                            },
+                                                                                            "type": "MAP_CONTAINER"
+                                                                                        },
+                                                                                        "sysId": "cef14c67c3a29ad0bbb2fb377d013189"
+                                                                                    },
+                                                                                    "operation": null,
+                                                                                    "targetId": "cmfffnembhhaaaahhiiddjiiffswkeezemu",
+                                                                                    "type": "EVENT"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "isHidden": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": null
+                                                                    },
+                                                                    "preset": null,
+                                                                    "propertyValues": {
+                                                                        "configAria": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "disabled": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "icon": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "label": {
+                                                                            "type": "TRANSLATION_LITERAL",
+                                                                            "value": {
+                                                                                "code": null,
+                                                                                "comment": "",
+                                                                                "message": "Previous"
+                                                                            }
+                                                                        },
+                                                                        "landmark": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "size": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "md"
+                                                                        },
+                                                                        "tooltipContent": {
+                                                                            "type": "TRANSLATION_LITERAL",
+                                                                            "value": {
+                                                                                "code": null,
+                                                                                "comment": "",
+                                                                                "message": "Enter a label"
+                                                                            }
+                                                                        },
+                                                                        "variant": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "secondary"
+                                                                        }
+                                                                    },
+                                                                    "slot": null,
+                                                                    "styles": null
+                                                                },
+                                                                {
+                                                                    "definition": {
+                                                                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                                        "type": "MACROPONENT"
+                                                                    },
+                                                                    "elementId": "button_2",
+                                                                    "elementLabel": "Button 2",
+                                                                    "eventMappings": [
+                                                                        {
+                                                                            "eventMappingId": "cmfffndmpsaaaaggiiddjiiffbrhiggoay",
+                                                                            "isConfiguration": false,
+                                                                            "offRowStorageId": null,
+                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                            "sourceEventCorrelationId": null,
+                                                                            "sourceEventDefinition": {
+                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                "id": null,
+                                                                                "type": "UXEVENT"
+                                                                            },
+                                                                            "sourceEventSysId": null,
+                                                                            "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": {
+                                                                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_befa696183a2de10b2b59065eeaad3c6",
+                                                                                        "payload": {
+                                                                                            "container": {
+                                                                                                "external": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "fields": {
+                                                                                                    "container": {
+                                                                                                        "sysId": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "sysId"
+                                                                                                                ],
+                                                                                                                "category": "props"
+                                                                                                            },
+                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                        },
+                                                                                                        "table": {
+                                                                                                            "type": "JSON_LITERAL",
+                                                                                                            "value": "x_1526931_claim_fo_other_vehicle"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "type": "MAP_CONTAINER"
+                                                                                                },
+                                                                                                "multiInstField": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "navigationOptions": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "params": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "passiveNavigation": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "redirect": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "route": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": "other-vehicle"
+                                                                                                },
+                                                                                                "targetRoute": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                },
+                                                                                                "title": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                }
+                                                                                            },
+                                                                                            "type": "MAP_CONTAINER"
+                                                                                        },
+                                                                                        "sysId": "cef14c67c3a29ad0bbb2fb377d013189"
+                                                                                    },
+                                                                                    "operation": null,
+                                                                                    "targetId": "cmfffndmpsaaaaggjjddjiiffyhhtggojjkk",
+                                                                                    "type": "EVENT"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "isHidden": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": null
+                                                                    },
+                                                                    "preset": null,
+                                                                    "propertyValues": {
+                                                                        "configAria": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "disabled": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "icon": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "label": {
+                                                                            "type": "TRANSLATION_LITERAL",
+                                                                            "value": {
+                                                                                "code": null,
+                                                                                "comment": "",
+                                                                                "message": "Next"
+                                                                            }
+                                                                        },
+                                                                        "landmark": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "size": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "md"
+                                                                        },
+                                                                        "tooltipContent": {
+                                                                            "type": "TRANSLATION_LITERAL",
+                                                                            "value": {
+                                                                                "code": null,
+                                                                                "comment": "",
+                                                                                "message": "Enter a label"
+                                                                            }
+                                                                        },
+                                                                        "variant": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "primary"
+                                                                        }
+                                                                    },
+                                                                    "slot": null,
+                                                                    "styles": null
+                                                                }
+                                                            ],
+                                                            "layout": {
+                                                                "default": {
+                                                                    "children": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "element_id": "button_1",
+                                                                            "styles": {}
+                                                                        },
+                                                                        {
+                                                                            "element_id": "button_2",
+                                                                            "styles": {}
+                                                                        }
+                                                                    ],
+                                                                    "root": null,
+                                                                    "rules": null,
+                                                                    "styles": {
+                                                                        "align-items": "flex-start",
+                                                                        "flex-direction": "row",
+                                                                        "justify-content": "space-around"
+                                                                    },
+                                                                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                                                    "type": "flex"
+                                                                },
+                                                                "version": "3.0.0"
+                                                            }
+                                                        },
+                                                        "preset": {
+                                                            "controllerElementId": "record",
+                                                            "disabledEventTargetIds": [],
+                                                            "id": "9aeb8ba90de3e59686276ced85f01329"
+                                                        },
+                                                        "propertyValues": {
+                                                            "ariaRegionHeadingLevel": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "1"
+                                                            },
+                                                            "ariaRegionName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": ""
+                                                            },
+                                                            "ariaRole": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": ""
+                                                            },
+                                                            "hideEmptyStateUi": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "includeAriaHeading": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "slotWrapperBehavior": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "fullheight"
+                                                            },
+                                                            "type": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "section"
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
                                                     }
                                                 ],
                                                 "layout": {
@@ -1406,6 +1773,12 @@
                                                             {
                                                                 "element_id": "domain_form_layout",
                                                                 "styles": {}
+                                                            },
+                                                            {
+                                                                "element_id": "container_4",
+                                                                "styles": {
+                                                                    "width": "100%"
+                                                                }
                                                             }
                                                         ],
                                                         "root": null,
@@ -1581,368 +1954,6 @@
                                 },
                                 "slot": null,
                                 "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "column_layout_5",
-                                "elementLabel": "Column layout 5",
-                                "eventMappings": [],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "d356d14b6e293a3020a244b63d278d8f",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "__cmeetkbbvajaaffggjddffiiffgghhhhcxzsdd__column_1",
-                                            "elementLabel": "Column 1",
-                                            "eventMappings": [],
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "overrides": {
-                                                "composition": [
-                                                    {
-                                                        "definition": {
-                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "button_1",
-                                                        "elementLabel": "Button 1",
-                                                        "eventMappings": [
-                                                            {
-                                                                "eventMappingId": "cmffbbzahheeccaaffciddjiiffdccpxsdjjv",
-                                                                "isConfiguration": false,
-                                                                "offRowStorageId": null,
-                                                                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                "sourceEventCorrelationId": null,
-                                                                "sourceEventDefinition": {
-                                                                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                    "id": null,
-                                                                    "type": "UXEVENT"
-                                                                },
-                                                                "sourceEventSysId": null,
-                                                                "targets": [
-                                                                    {
-                                                                        "broker": null,
-                                                                        "clientScript": null,
-                                                                        "conditional": null,
-                                                                        "declarativeAction": null,
-                                                                        "event": {
-                                                                            "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_befa696183a2de10b2b59065eeaad3c6",
-                                                                            "payload": {
-                                                                                "container": {
-                                                                                    "external": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "fields": {
-                                                                                        "container": {
-                                                                                            "sysId": {
-                                                                                                "binding": {
-                                                                                                    "address": [
-                                                                                                        "sysId"
-                                                                                                    ],
-                                                                                                    "category": "props"
-                                                                                                },
-                                                                                                "type": "CONTEXT_BINDING"
-                                                                                            },
-                                                                                            "table": {
-                                                                                                "binding": {
-                                                                                                    "address": [
-                                                                                                        "table"
-                                                                                                    ],
-                                                                                                    "category": "props"
-                                                                                                },
-                                                                                                "type": "CONTEXT_BINDING"
-                                                                                            }
-                                                                                        },
-                                                                                        "type": "MAP_CONTAINER"
-                                                                                    },
-                                                                                    "multiInstField": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "navigationOptions": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "params": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "passiveNavigation": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "redirect": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "route": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": "emergency-details"
-                                                                                    },
-                                                                                    "targetRoute": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    },
-                                                                                    "title": {
-                                                                                        "type": "JSON_LITERAL",
-                                                                                        "value": null
-                                                                                    }
-                                                                                },
-                                                                                "type": "MAP_CONTAINER"
-                                                                            },
-                                                                            "sysId": "cef14c67c3a29ad0bbb2fb377d013189"
-                                                                        },
-                                                                        "operation": null,
-                                                                        "targetId": "cmffbbzahheeccaaffcjddjiiffytilhhkjju",
-                                                                        "type": "EVENT"
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ],
-                                                        "isHidden": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": null
-                                                        },
-                                                        "preset": null,
-                                                        "propertyValues": {
-                                                            "configAria": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "disabled": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": false
-                                                            },
-                                                            "icon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "label": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Previous"
-                                                                }
-                                                            },
-                                                            "landmark": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "size": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "md"
-                                                            },
-                                                            "tooltipContent": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Enter a label"
-                                                                }
-                                                            },
-                                                            "variant": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "tertiary"
-                                                            }
-                                                        },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    }
-                                                ],
-                                                "layout": {
-                                                    "default": {
-                                                        "children": null,
-                                                        "items": [
-                                                            {
-                                                                "element_id": "button_1",
-                                                                "styles": {
-                                                                    "align-self": "center",
-                                                                    "margin-bottom": "var(--now-scalable-space--xl)",
-                                                                    "margin-top": "var(--now-scalable-space--xl)"
-                                                                }
-                                                            }
-                                                        ],
-                                                        "root": null,
-                                                        "rules": {
-                                                            "flex-direction": "row"
-                                                        },
-                                                        "styles": {
-                                                            "align-items": "stretch",
-                                                            "box-sizing": "border-box",
-                                                            "flex-direction": "column",
-                                                            "height": "100%",
-                                                            "justify-content": "flex-start",
-                                                            "overflow": "auto"
-                                                        },
-                                                        "type": "flex"
-                                                    },
-                                                    "version": "3.0.0"
-                                                }
-                                            },
-                                            "preset": null,
-                                            "propertyValues": {
-                                                "hideEmptyStateUi": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "slotWrapperBehavior": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "contents"
-                                                }
-                                            },
-                                            "scratchPad": {
-                                                "uib": {
-                                                    "layout": {
-                                                        "column": {
-                                                            "columnNumber": 0,
-                                                            "id": "default",
-                                                            "styleConfig": {
-                                                                "external": {
-                                                                    "display": "contents",
-                                                                    "width": "100%"
-                                                                },
-                                                                "internal": {
-                                                                    "align-items": "stretch",
-                                                                    "box-sizing": "border-box",
-                                                                    "flex-direction": "column",
-                                                                    "height": "100%",
-                                                                    "justify-content": "flex-start",
-                                                                    "overflow": "auto"
-                                                                }
-                                                            }
-                                                        },
-                                                        "type": "column"
-                                                    },
-                                                    "version": "1.0.0"
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "isInline": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "__cmeetkbbvajaaffggjddffiiffgghhhhcxzsdd__column_1",
-                                                    "styles": {
-                                                        "display": "contents",
-                                                        "width": "100%"
-                                                    }
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "box-sizing": "border-box",
-                                                "column-gap": "1px",
-                                                "grid-template-columns": "100fr",
-                                                "grid-template-rows": "1fr",
-                                                "width": "auto"
-                                            },
-                                            "type": "grid"
-                                        },
-                                        "queries": [
-                                            {
-                                                "layout": {
-                                                    "children": null,
-                                                    "isInline": null,
-                                                    "items": [],
-                                                    "root": null,
-                                                    "rules": null,
-                                                    "styles": {
-                                                        "box-sizing": "border-box",
-                                                        "column-gap": "1px",
-                                                        "grid-template-columns": "1fr",
-                                                        "grid-template-rows": "1fr",
-                                                        "height": "fit-content",
-                                                        "max-height": "max-content",
-                                                        "min-height": "min-content",
-                                                        "width": "auto"
-                                                    },
-                                                    "type": "grid"
-                                                },
-                                                "query": {
-                                                    "max-width": 640
-                                                }
-                                            }
-                                        ],
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "hideEmptyStateUi": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "slotWrapperBehavior": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "contents"
-                                    }
-                                },
-                                "scratchPad": {
-                                    "uib": {
-                                        "layout": {
-                                            "columnSection": {
-                                                "breakpoints": [
-                                                    {
-                                                        "behavior": "stack",
-                                                        "max-width": 640,
-                                                        "styles": {
-                                                            "box-sizing": "border-box",
-                                                            "grid-template-columns": "1fr",
-                                                            "grid-template-rows": "1fr",
-                                                            "height": "fit-content",
-                                                            "max-height": "max-content",
-                                                            "min-height": "min-content",
-                                                            "width": "auto"
-                                                        }
-                                                    }
-                                                ],
-                                                "children": [
-                                                    {
-                                                        "columnNumber": 1,
-                                                        "unit": "%",
-                                                        "width": 100
-                                                    }
-                                                ],
-                                                "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
-                                                "styleConfig": {
-                                                    "external": {
-                                                        "display": "contents",
-                                                        "width": "100%"
-                                                    },
-                                                    "internal": {
-                                                        "box-sizing": "border-box",
-                                                        "column-gap": "1px",
-                                                        "grid-template-rows": "1fr",
-                                                        "width": "auto"
-                                                    }
-                                                }
-                                            },
-                                            "type": "columnSection"
-                                        },
-                                        "version": "1.0.0"
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
                             }
                         ],
                         "layout": {
@@ -1958,13 +1969,6 @@
                                     },
                                     {
                                         "element_id": "column_layout_4",
-                                        "styles": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        }
-                                    },
-                                    {
-                                        "element_id": "column_layout_5",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
@@ -3944,6 +3948,9 @@
   "message" : "Loss Details",
   "comment" : ""
 }, {
+  "message" : "Next",
+  "comment" : ""
+}, {
   "message" : "Other Vehicle(s)",
   "comment" : ""
 }, {
@@ -3972,14 +3979,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-18 06:54:06</sys_created_on>
         <sys_id>befa696183a2de10b2b59065eeaad3c6</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Insured vehicle(s)</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_befa696183a2de10b2b59065eeaad3c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-30 19:17:23</sys_updated_on>
+        <sys_updated_on>2025-01-02 18:18:03</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=befa696183a2de10b2b59065eeaad3c6"/>
 </record_update>

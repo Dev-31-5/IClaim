@@ -4,15 +4,29 @@
             <element>.split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-27 07:24:00</sys_created_on>
-            <sys_id>7c284c28c37e521099057a94e4013148</sys_id>
+            <sys_created_on>2025-01-02 18:25:09</sys_created_on>
+            <sys_id>f3f81522837e12101a3273d6feaad39e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pedestrian" display_value="Pedestrian" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="666b6b31c3ee1650bbb2fb377d013198">58280c28c37e521099057a94e4013194</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-27 07:24:00</sys_updated_on>
+            <sys_updated_on>2025-01-02 18:25:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pedestrians</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-02 18:25:09</sys_created_on>
+            <sys_id>b3f81522837e12101a3273d6feaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pedestrian" display_value="Pedestrian" name="x_1526931_claim_fo_auto_claim" sys_domain="global" view="666b6b31c3ee1650bbb2fb377d013198">58280c28c37e521099057a94e4013194</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-02 18:25:09</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Pedestrian</caption>
