@@ -988,7 +988,463 @@
                     },
                     "elementId": "stepper_1",
                     "elementLabel": "Stepper 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmffkqxfagaabbzqddffiiffgprmgxiiv",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_stepper.NOW_STEPPER#SELECTED_ITEM_SET",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_stepper.NOW_STEPPER#SELECTED_ITEM_SET",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": {
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "operation": {
+                                                            "left": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "operator": "EQUAL",
+                                                            "right": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "step1"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": true
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": false
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "IF"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
+                                    },
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "container": {
+                                                "external": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "fields": {
+                                                    "container": {
+                                                        "sysId": {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "sysId"
+                                                                ],
+                                                                "category": "props"
+                                                            },
+                                                            "type": "CONTEXT_BINDING"
+                                                        },
+                                                        "table": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": "x_1526931_claim_fo_auto_claim"
+                                                        }
+                                                    },
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "multiInstField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "navigationOptions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "params": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "passiveNavigation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "redirect": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "route": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "initiate-claim"
+                                                },
+                                                "targetRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "title": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkqxfagaabbzrddffiiffnurnffdddl",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": {
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "operation": {
+                                                            "left": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "operator": "EQUAL",
+                                                            "right": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "step2"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": true
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": false
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "IF"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
+                                    },
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "container": {
+                                                "external": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "fields": {
+                                                    "container": {
+                                                        "sysId": {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "sysId"
+                                                                ],
+                                                                "category": "props"
+                                                            },
+                                                            "type": "CONTEXT_BINDING"
+                                                        },
+                                                        "table": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": "x_1526931_claim_fo_auto_claim"
+                                                        }
+                                                    },
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "multiInstField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "navigationOptions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "params": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "passiveNavigation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "redirect": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "route": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "policy-holder-details"
+                                                },
+                                                "targetRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "title": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkqzwhhpaaccbbaddffiiffmegrcutii",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkqzzjbaaccbbhddffiiffzokggkcbbgg",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkraaddiipaaccbboddffiiffpdrplviig",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkraahlqaaccccaaddffiiffuvgxymun",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkraalddwaacccchhddffiiffjaaiihhfhhhbb",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkraasaraaccccfddffiiffelggrjhffj",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkraazgffaaccccmddffiiffghhixroeea",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkrbbggxwaaccccvddffiiffpbbodjxtbb",
+                                    "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": null,
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "9aebe011c362d610bbb2fb377d013182"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffkrbbcbbbaaccddccddffiifffyeiiggobj",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -2385,6 +2841,24 @@
                                                                                                 "clientScript": null,
                                                                                                 "conditional": null,
                                                                                                 "declarativeAction": null,
+                                                                                                "event": null,
+                                                                                                "operation": {
+                                                                                                    "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                                                                                                    "operationName": "CTRL_RECORD#SAVE_FORM",
+                                                                                                    "parentResourceId": "record",
+                                                                                                    "payload": {
+                                                                                                        "type": "JSON_LITERAL",
+                                                                                                        "value": {}
+                                                                                                    }
+                                                                                                },
+                                                                                                "targetId": "cmffkqkdtbaabbxuddffiiffagplxaapz",
+                                                                                                "type": "DATABROKER_OP"
+                                                                                            },
+                                                                                            {
+                                                                                                "broker": null,
+                                                                                                "clientScript": null,
+                                                                                                "conditional": null,
+                                                                                                "declarativeAction": null,
                                                                                                 "event": {
                                                                                                     "apiName": "x_1526931_claim_fo.NAV_ITEM_SELECTED_RELAY_acbe1c15c3ea9610bbb2fb377d013123",
                                                                                                     "payload": {
@@ -2396,8 +2870,13 @@
                                                                                                             "fields": {
                                                                                                                 "container": {
                                                                                                                     "sysId": {
-                                                                                                                        "type": "JSON_LITERAL",
-                                                                                                                        "value": "-1"
+                                                                                                                        "binding": {
+                                                                                                                            "address": [
+                                                                                                                                "sysId"
+                                                                                                                            ],
+                                                                                                                            "category": "props"
+                                                                                                                        },
+                                                                                                                        "type": "CONTEXT_BINDING"
                                                                                                                     },
                                                                                                                     "table": {
                                                                                                                         "type": "JSON_LITERAL",
@@ -2444,7 +2923,7 @@
                                                                                                     "sysId": "9aebe011c362d610bbb2fb377d013182"
                                                                                                 },
                                                                                                 "operation": null,
-                                                                                                "targetId": "cmeesggjjojjyaabbffkddffiiffddjeeziiggtv",
+                                                                                                "targetId": "cmffkqlocoaabbyjjddffiiffffddeefvffjw",
                                                                                                 "type": "EVENT"
                                                                                             }
                                                                                         ]
@@ -3701,13 +4180,8 @@
                 "type": "CONTEXT_BINDING"
             },
             "inputTable": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
+                "type": "JSON_LITERAL",
+                "value": "x_1526931_claim_fo_pedestrian"
             },
             "isMappedToAppShell": {
                 "type": "JSON_LITERAL",
@@ -3900,14 +4374,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 06:42:19</sys_created_on>
         <sys_id>acbe1c15c3ea9610bbb2fb377d013123</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>pedestrian</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_acbe1c15c3ea9610bbb2fb377d013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-02 10:03:32</sys_updated_on>
+        <sys_updated_on>2025-01-06 08:07:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=acbe1c15c3ea9610bbb2fb377d013123"/>
 </record_update>
