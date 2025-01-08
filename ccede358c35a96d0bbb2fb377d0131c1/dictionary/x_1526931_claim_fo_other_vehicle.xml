@@ -2,70 +2,70 @@
     <element db_object_id="aa993354835212101a3273d6feaad359" label="Other Vehicle" max_length="40" name="x_1526931_claim_fo_other_vehicle" type="collection">
         <element choice="1" label="Color" max_length="40" name="color" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Red" sequence="1" value="red"/>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
                 <element inactive_on_update="false" label="Black" sequence="2" value="black"/>
                 <element inactive_on_update="false" label="White" sequence="0" value="white"/>
-                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
-                <element inactive_on_update="false" label="Red" sequence="1" value="red"/>
             </choice>
         </element>
-        <element label="VIN" max_length="40" name="vin" type="string"/>
-        <element label="Display Name" max_length="40" name="display_name" type="string"/>
-        <element label="Vehicle passenger 5 first name" max_length="40" name="vehicle_passenger_5_first_name" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Vehicle passenger 5 last name" max_length="40" name="vehicle_passenger_5_last_name" type="string"/>
+        <element label="Vehicle passenger 1 last name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
+        <element label="Vehicle passenger 1 first name" max_length="40" name="vehicle_passenger_1_first_name" type="string"/>
+        <element label="Vehicle passenger 2 first name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
+        <element label="How many other vehicles were involved?" max_length="40" name="how_many_other_vehicles_were_involved" type="integer"/>
+        <element label="Vehicle passenger 3 first name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
         <element choice="1" label="Model Year" max_length="40" name="model_year" type="choice">
             <choice>
-                <element inactive_on_update="false" label="2001" sequence="1" value="2001"/>
-                <element inactive_on_update="false" label="2007" sequence="7" value="2007"/>
-                <element inactive_on_update="false" label="2015" sequence="15" value="2015"/>
-                <element inactive_on_update="false" label="2023" sequence="23" value="2023"/>
                 <element inactive_on_update="false" label="2005" sequence="5" value="2005"/>
                 <element inactive_on_update="false" label="2013" sequence="13" value="2013"/>
                 <element inactive_on_update="false" label="2021" sequence="21" value="2021"/>
                 <element inactive_on_update="false" label="2003" sequence="3" value="2003"/>
                 <element inactive_on_update="false" label="2011" sequence="11" value="2011"/>
                 <element inactive_on_update="false" label="2019" sequence="19" value="2019"/>
+                <element inactive_on_update="false" label="2001" sequence="1" value="2001"/>
                 <element inactive_on_update="false" label="2009" sequence="9" value="2009"/>
                 <element inactive_on_update="false" label="2017" sequence="17" value="2017"/>
-                <element inactive_on_update="false" label="2002" sequence="2" value="2002"/>
-                <element inactive_on_update="false" label="2000" sequence="0" value="2000"/>
-                <element inactive_on_update="false" label="2006" sequence="6" value="2006"/>
-                <element inactive_on_update="false" label="2014" sequence="14" value="2014"/>
-                <element inactive_on_update="false" label="2022" sequence="22" value="2022"/>
+                <element inactive_on_update="false" label="2007" sequence="7" value="2007"/>
+                <element inactive_on_update="false" label="2015" sequence="15" value="2015"/>
+                <element inactive_on_update="false" label="2023" sequence="23" value="2023"/>
                 <element inactive_on_update="false" label="2004" sequence="4" value="2004"/>
                 <element inactive_on_update="false" label="2012" sequence="12" value="2012"/>
                 <element inactive_on_update="false" label="2020" sequence="20" value="2020"/>
+                <element inactive_on_update="false" label="2002" sequence="2" value="2002"/>
                 <element inactive_on_update="false" label="2010" sequence="10" value="2010"/>
                 <element inactive_on_update="false" label="2018" sequence="18" value="2018"/>
+                <element inactive_on_update="false" label="2000" sequence="0" value="2000"/>
                 <element inactive_on_update="false" label="2008" sequence="8" value="2008"/>
                 <element inactive_on_update="false" label="2016" sequence="16" value="2016"/>
+                <element inactive_on_update="false" label="2006" sequence="6" value="2006"/>
+                <element inactive_on_update="false" label="2014" sequence="14" value="2014"/>
+                <element inactive_on_update="false" label="2022" sequence="22" value="2022"/>
             </choice>
         </element>
-        <element label="Vehicle passenger 3 last name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
-        <element label="Vehicle passenger 1 last name" max_length="40" name="vehicle_passenger_1_last_name" type="string"/>
-        <element label="Vehicle passenger 4 last name" max_length="40" name="vehicle_passenger_4_last_name" type="string"/>
-        <element label="Vehicle passenger 2 last name" max_length="40" name="vehicle_passenger_2_last_name" type="string"/>
-        <element label="License Plate Number" max_length="40" name="license_plate_number" type="string"/>
-        <element label="Model" max_length="40" name="model" type="string"/>
-        <element label="Claimsysid" max_length="40" name="claimsysid" type="string"/>
-        <element default="0" label="Number of passengers" max_length="40" name="number_of_passengers" type="integer"/>
-        <element label="Was the vehicle damaged?" max_length="40" name="was_the_vehicle_damaged" type="boolean"/>
-        <element choice="1" label="Where there any other vehicles involved?" max_length="40" name="where_there_any_other_vehicles_involved" type="choice">
+        <element choice="1" label="Were there any other vehicles involved?" max_length="40" name="where_there_any_other_vehicles_involved" type="choice">
             <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
                 <element inactive_on_update="false" label="Unknown" sequence="2" value="unknown"/>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element label="Vehicle passenger 2 first name" max_length="40" name="vehicle_passenger_2_first_name" type="string"/>
-        <element label="Describe Damage details" max_length="400" name="describe_damage_details" type="string"/>
-        <element label="Vehicle passenger 4 first  name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
-        <element label="How many other vehicles were involved?" max_length="40" name="how_many_other_vehicles_were_involved" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Vehicle passenger 3 first name" max_length="40" name="vehicle_passenger_3_first_name" type="string"/>
-        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Passenger in other vehicle" max_length="1024" name="u_passenger_in_other_vehicle" read_only="true" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vehicle of passenger" max_length="40" name="vehicle_of_passenger" reference="x_1526931_claim_fo_other_vehicle" type="reference"/>
+        <element label="Vehicle passenger 5 first name" max_length="40" name="vehicle_passenger_5_first_name" type="string"/>
+        <element label="License Plate Number" max_length="40" name="license_plate_number" type="string"/>
+        <element default="0" label="Number of passengers" max_length="40" name="number_of_passengers" type="integer"/>
+        <element label="Vehicle passenger 4 first  name" max_length="40" name="vehicle_passenger_4_first_name" type="string"/>
+        <element label="VIN" max_length="40" name="vin" type="string"/>
+        <element label="Was the vehicle damaged?" max_length="40" name="was_the_vehicle_damaged" type="boolean"/>
+        <element label="Describe Damage details" max_length="400" name="describe_damage_details" type="string"/>
         <element label="Make" max_length="40" name="make" type="string"/>
-        <element label="Vehicle passenger 5 last name" max_length="40" name="vehicle_passenger_5_last_name" type="string"/>
-        <element label="Vehicle passenger 1 first name" max_length="40" name="vehicle_passenger_1_first_name" type="string"/>
+        <element label="Vehicle passenger 2 last name" max_length="40" name="vehicle_passenger_2_last_name" type="string"/>
+        <element label="Claimsysid" max_length="40" name="claimsysid" type="string"/>
+        <element label="Display Name" max_length="40" name="display_name" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Passenger in other vehicle" max_length="1024" name="u_passenger_in_other_vehicle" read_only="true" type="glide_list"/>
+        <element label="Vehicle passenger 4 last name" max_length="40" name="vehicle_passenger_4_last_name" type="string"/>
         <element label="Was there any other passengers in other vehicle?" max_length="40" name="was_there_any_other_passengers_in_other_vehicle" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vehicle of passenger" max_length="40" name="vehicle_of_passenger" reference="x_1526931_claim_fo_other_vehicle" type="reference"/>
+        <element label="Vehicle passenger 3 last name" max_length="40" name="vehicle_passenger_3_last_name" type="string"/>
     </element>
 </database>

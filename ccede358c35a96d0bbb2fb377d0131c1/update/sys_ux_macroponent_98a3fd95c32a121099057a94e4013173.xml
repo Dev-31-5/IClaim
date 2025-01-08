@@ -698,7 +698,7 @@
                                 "propertyValues": {
                                     "disableCollapse": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "inRecordPageTab": {
                                         "type": "JSON_LITERAL",
@@ -710,7 +710,11 @@
                                     },
                                     "isContextMenuHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
+                                    },
+                                    "isFirstSectionTitleHidden": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
                                     },
                                     "isFormOptionsHidden": {
                                         "type": "JSON_LITERAL",
@@ -727,6 +731,10 @@
                                     "isSectionTitleHidden": {
                                         "type": "JSON_LITERAL",
                                         "value": false
+                                    },
+                                    "isViewSectionHidden": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
                                     },
                                     "scrollableHost": {
                                         "type": "JSON_LITERAL",
@@ -2077,14 +2085,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 12:53:24</sys_created_on>
         <sys_id>98a3fd95c32a121099057a94e4013173</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Update Damaged Properties</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_98a3fd95c32a121099057a94e4013173</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-29 14:05:04</sys_updated_on>
+        <sys_updated_on>2025-01-08 07:41:41</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=98a3fd95c32a121099057a94e4013173"/>
 </record_update>

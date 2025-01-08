@@ -1578,7 +1578,7 @@
                                 "propertyValues": {
                                     "disableCollapse": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "inRecordPageTab": {
                                         "type": "JSON_LITERAL",
@@ -1590,7 +1590,7 @@
                                     },
                                     "isContextMenuHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "isFormOptionsHidden": {
                                         "type": "JSON_LITERAL",
@@ -1606,7 +1606,11 @@
                                     },
                                     "isSectionTitleHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
+                                    },
+                                    "isViewSectionHidden": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
                                     },
                                     "scrollableHost": {
                                         "type": "JSON_LITERAL",
@@ -3173,13 +3177,8 @@
                                                                                                             "type": "CONTEXT_BINDING"
                                                                                                         },
                                                                                                         "table": {
-                                                                                                            "binding": {
-                                                                                                                "address": [
-                                                                                                                    "table"
-                                                                                                                ],
-                                                                                                                "category": "props"
-                                                                                                            },
-                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                            "type": "JSON_LITERAL",
+                                                                                                            "value": "x_1526931_claim_fo_other_vehicle"
                                                                                                         }
                                                                                                     },
                                                                                                     "type": "MAP_CONTAINER"
@@ -3342,13 +3341,8 @@
                                                                                                             "type": "CONTEXT_BINDING"
                                                                                                         },
                                                                                                         "table": {
-                                                                                                            "binding": {
-                                                                                                                "address": [
-                                                                                                                    "table"
-                                                                                                                ],
-                                                                                                                "category": "props"
-                                                                                                            },
-                                                                                                            "type": "CONTEXT_BINDING"
+                                                                                                            "type": "JSON_LITERAL",
+                                                                                                            "value": "x_1526931_claim_fo_claim_witness"
                                                                                                         }
                                                                                                     },
                                                                                                     "type": "MAP_CONTAINER"
@@ -4788,14 +4782,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-17 12:00:41</sys_created_on>
         <sys_id>8097e119c3e6121099057a94e401318f</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Damaged Properties</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_8097e119c3e6121099057a94e401318f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 10:10:55</sys_updated_on>
+        <sys_updated_on>2025-01-08 08:01:44</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8097e119c3e6121099057a94e401318f"/>
 </record_update>

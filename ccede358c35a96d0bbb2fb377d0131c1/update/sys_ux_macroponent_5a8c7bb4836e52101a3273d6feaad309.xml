@@ -6,11 +6,205 @@
         "definitionId": "d6c0f4f531825510f8773d3775164e01",
         "instanceId": "form_1",
         "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_2",
+        "useByReference": false
     }
 ]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_2",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport_2",
+        "elementLabel": "Modal Container (Viewport) 2",
+        "eventMappings": [],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": {
+            "width": "100%"
+        }
+    },
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_2",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "de328a48e97cdcc50a5043e029bf0a66",
+            "type": "MACROPONENT"
+        },
+        "elementId": "reference_info_popover_2",
+        "elementLabel": "Reference Info Popover 2",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "bundleLink": {
+                        "bundleInstanceId": "form_2",
+                        "elementType": "member"
+                    },
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "reference_info_content_2",
+                    "elementLabel": "Reference Info Content 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "form_2",
+                                    "elementType": "member"
+                                },
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "open_record_button_2",
+                                "elementLabel": "Open Record Button 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "2c9b775ba59d59482acacfd67c793517"
+                                },
+                                "propertyValues": {
+                                    "configAria": {}
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "form_2",
+                                    "elementType": "member"
+                                },
+                                "definition": {
+                                    "id": "f4d3254a798ef092d9023d408f257789",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "display_only_record_form_2",
+                                "elementLabel": "Display Only Form 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "d47e3591999fa213338037c11623e30f"
+                                },
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "open_record_button_2",
+                                        "styles": {
+                                            "align-self": "flex-end",
+                                            "position": "absolute",
+                                            "z-index": "99"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "display_only_record_form_2",
+                                        "styles": {
+                                            "min-height": "80px",
+                                            "min-width": "504px"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "display": "flex",
+                                    "flex-direction": "column",
+                                    "margin": "var(--now-scalable-space--md)",
+                                    "padding-inline-end": "calc(var(--now-scale-space--sm, 1)*0.5rem)",
+                                    "padding-top": "calc(var(--now-scale-space--sm, 1)*0.5rem)"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": true,
+                        "includeAriaHeading": false,
+                        "slotWrapperBehavior": "fullheight",
+                        "type": "section"
+                    },
+                    "slot": "content",
+                    "styles": {
+                        "width": "250px"
+                    }
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "record",
+            "id": "79ebea45f4861cca5a2606fb0217d3a6"
+        },
+        "propertyValues": {
+            "configAria": {},
+            "positions": {
+                "type": "JSON_LITERAL"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
     {
         "bundleLink": {
             "bundleInstanceId": "form_1",
@@ -39,12 +233,56 @@
         "isNonDestructive": false,
         "items": [],
         "overrides": null,
-        "preset": {
-            "controllerElementId": "record",
-            "disabledEventTargetIds": [],
-            "id": "b76d5b8043432110379ea5dccbb8f297"
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "contents": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "fields": {},
+                    "route": ""
+                }
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "displayOptions": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
         },
-        "propertyValues": {},
         "slot": null,
         "styles": {
             "width": "100%"
@@ -102,12 +340,45 @@
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": {
-                                    "controllerElementId": "record",
-                                    "id": "2c9b775ba59d59482acacfd67c793517"
-                                },
+                                "preset": null,
                                 "propertyValues": {
-                                    "configAria": {}
+                                    "configAria": {},
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Button"
+                                        }
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary"
+                                    }
                                 },
                                 "slot": null,
                                 "styles": null
@@ -128,11 +399,53 @@
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": {
-                                    "controllerElementId": "record",
-                                    "id": "d47e3591999fa213338037c11623e30f"
+                                "preset": null,
+                                "propertyValues": {
+                                    "bare": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "forcedViewName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "inPopover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "inUiBuilder": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "isShowLoader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "query": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "readOnlyForm": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "sysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "-1"
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "incident"
+                                    },
+                                    "view": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "ess"
+                                    },
+                                    "workspaceConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "7b24ceae5304130084acddeeff7b12a3"
+                                    }
                                 },
-                                "propertyValues": {},
                                 "slot": null,
                                 "styles": null
                             }
@@ -187,12 +500,25 @@
                 }
             ]
         },
-        "preset": {
-            "controllerElementId": "record",
-            "id": "79ebea45f4861cca5a2606fb0217d3a6"
-        },
+        "preset": null,
         "propertyValues": {
             "configAria": {},
+            "disableScroll": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "focusPanel": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTail": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "positioningToTrigger": {
+                "type": "JSON_LITERAL",
+                "value": "auto"
+            },
             "positions": {
                 "type": "JSON_LITERAL"
             }
@@ -323,7 +649,7 @@
                             },
                             {
                                 "bundleLink": {
-                                    "bundleInstanceId": "form_1",
+                                    "bundleInstanceId": "form_2",
                                     "elementType": "root"
                                 },
                                 "definition": {
@@ -360,17 +686,13 @@
                                         "type": "JSON_LITERAL",
                                         "value": true
                                     },
-                                    "isFirstSectionTitleHidden": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
                                     "isFormOptionsHidden": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
                                     "isRemovePaddingLeft": {
                                         "type": "JSON_LITERAL",
-                                        "value": true
+                                        "value": false
                                     },
                                     "isSectionMenuHidden": {
                                         "type": "JSON_LITERAL",
@@ -378,23 +700,15 @@
                                     },
                                     "isSectionTitleHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": true
                                     },
                                     "isViewSectionHidden": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "landmark": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": true
                                     },
                                     "scrollableHost": {
                                         "type": "JSON_LITERAL",
                                         "value": null
-                                    },
-                                    "sectionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "2"
                                     }
                                 },
                                 "slot": null,
@@ -402,7 +716,7 @@
                             },
                             {
                                 "bundleLink": {
-                                    "bundleInstanceId": "form_1",
+                                    "bundleInstanceId": "form_2",
                                     "elementType": "root"
                                 },
                                 "definition": {
@@ -523,24 +837,6 @@
                                                             "operation": null,
                                                             "targetId": "cmeeqxbbbaahaaggccccddjiiffppiaaddfk",
                                                             "type": "EVENT"
-                                                        },
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": null,
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
-                                                            "event": null,
-                                                            "operation": {
-                                                                "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
-                                                                "operationName": "CTRL_RECORD#SAVE_FORM",
-                                                                "parentResourceId": "record",
-                                                                "payload": {
-                                                                    "type": "JSON_LITERAL",
-                                                                    "value": {}
-                                                                }
-                                                            },
-                                                            "targetId": "cmeeqxeiqhaaggggjjddjiiffcclsiiqzid",
-                                                            "type": "DATABROKER_OP"
                                                         }
                                                     ]
                                                 }
@@ -816,10 +1112,7 @@
                                     },
                                     {
                                         "element_id": "form_default",
-                                        "styles": {
-                                            "margin-left": "2%",
-                                            "margin-right": "2%"
-                                        }
+                                        "styles": {}
                                     },
                                     {
                                         "element_id": "domain_form_layout",
@@ -910,11 +1203,7 @@
                             "version": "3.0.0"
                         }
                     },
-                    "preset": {
-                        "controllerElementId": "record",
-                        "disabledEventTargetIds": [],
-                        "id": "9aeb8ba90de3e59686276ced85f01329"
-                    },
+                    "preset": null,
                     "propertyValues": {
                         "ariaRegionHeadingLevel": {
                             "type": "JSON_LITERAL",
@@ -1032,7 +1321,7 @@
     {
         "bundleLinks": [
             {
-                "bundleInstanceId": "form_1",
+                "bundleInstanceId": "form_2",
                 "elementType": "controller"
             }
         ],
@@ -1065,7 +1354,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_1",
+                                "bundleInstanceId": "form_2",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1077,7 +1366,7 @@
                                 "container": {
                                     "popoverElementId": {
                                         "type": "JSON_LITERAL",
-                                        "value": "[component-id$='reference_info_popover']"
+                                        "value": "[component-id$='reference_info_popover_2']"
                                     },
                                     "popoverTargetElementId": {
                                         "binding": {
@@ -1123,7 +1412,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_1",
+                                "bundleInstanceId": "form_2",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1269,7 +1558,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_1",
+                                "bundleInstanceId": "form_2",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1358,7 +1647,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_1",
+                                "bundleInstanceId": "form_2",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1465,7 +1754,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_1",
+                                "bundleInstanceId": "form_2",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1641,13 +1930,8 @@
                 "type": "CONTEXT_BINDING"
             },
             "view": {
-                "binding": {
-                    "address": [
-                        "view"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
+                "type": "JSON_LITERAL",
+                "value": "modifyvehicles"
             }
         },
         "preset": {
@@ -1721,6 +2005,9 @@
   "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvH5ce1Mg1ld2jkEdAsFLNdoEd6Ag7F2iHLs_1xqvzkOQbZsUx\" width=\"49\" height=\"49\"&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Modify Vehicle&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
+  "message" : "Button",
+  "comment" : ""
+}, {
   "message" : "Cancel",
   "comment" : ""
 }, {
@@ -1751,14 +2038,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-16 09:34:36</sys_created_on>
         <sys_id>5a8c7bb4836e52101a3273d6feaad309</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_5a8c7bb4836e52101a3273d6feaad309</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-29 14:07:06</sys_updated_on>
+        <sys_updated_on>2025-01-08 07:52:24</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=5a8c7bb4836e52101a3273d6feaad309"/>
 </record_update>
