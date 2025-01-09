@@ -2659,7 +2659,8 @@
                                                                             "element_id": "button_1",
                                                                             "styles": {
                                                                                 "align-self": "center",
-                                                                                "padding-left": "var(--now-scalable-space--3xl)"
+                                                                                "margin-left": "",
+                                                                                "padding-left": "0"
                                                                             }
                                                                         }
                                                                     ],
@@ -2911,7 +2912,7 @@
                                                                             "styles": {
                                                                                 "align-self": "center",
                                                                                 "input-9dp0s5vk1nv3-88812": "green",
-                                                                                "padding-left": "var(--now-scalable-space--3xl)",
+                                                                                "padding-left": "0",
                                                                                 "padding-right": "0"
                                                                             }
                                                                         }
@@ -4513,14 +4514,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-16 09:24:51</sys_created_on>
         <sys_id>af4a3b3083e212104022f629feaad31a</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>general Loss details</sys_name>
         <sys_package display_value="Claim for Insurance" source="x_1526931_claim_fo">ccede358c35a96d0bbb2fb377d0131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim for Insurance">ccede358c35a96d0bbb2fb377d0131c1</sys_scope>
         <sys_update_name>sys_ux_macroponent_af4a3b3083e212104022f629feaad31a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-08 08:14:33</sys_updated_on>
+        <sys_updated_on>2025-01-09 11:05:40</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=af4a3b3083e212104022f629feaad31a"/>
 </record_update>
